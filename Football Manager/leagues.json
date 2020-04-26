@@ -1,0 +1,3520 @@
+ [
+  {
+  "leagueName": "Liga 1",
+  "teams": [
+            {
+            "name": "Academica Clinceni",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Poenaru Ilie",
+            "players": [
+                        {
+                        "name": "Santos Miguel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Valceanu Octavian",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Albu Cristian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Humanes David",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ilie Bogdan Mihai",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Kontoes Giannis",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Matei Gabriel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Parvulescu Paul",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Patriche Nichita",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Achim Florin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bejan Florin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Cebotaru Eugeniu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Deretti Jean",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ion Robert",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Merloi George",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ndongala Aristode",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sut Adrian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ventura Denis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Buziuc Alexandru",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Markovici Jovan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Moussa Sofien",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Popescu Alexandru Ionut",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Vojtus Jakub",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Astra Giurgiu",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Andone Bogdan Ioan",
+            "players": [
+                        {
+                        "name": "Kitanov George",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Lazar David Beniamin",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Dandea Alexandru",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "David Bruno",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dima Constantin Cristian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gheorghe Valentin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Graovac Danijel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Radunovic Risto",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Tamas Gabriel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Trusescu Andrei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Begue Julien",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Biceanu Ciprian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Biceanu Ionut",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Crepulja Ljuban",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ionita Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Radut Mihai",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Serban Gabriel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Seto Takayuki",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Simion Gabriel Bogdan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ajayi Goodness",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Alibec Denis",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Baicu Raoul Petre",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Balaure Silviu",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Budescu Constantin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Fatai Kehinde",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Tounkara Oumare",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "CFR Cluj",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Petrescu Dan",
+            "players": [
+                        {
+                        "name": "Arlauskis Giedrius",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Rus Adrian",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Sandomierski Grzegorz",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Aurelio Luis",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Boli Kevin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Burca Andrei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cestor Mike",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ciobotariu Denis",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Joca Andrei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Manea Cristian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Susic Mateo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bordeianu Mihai",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Camora",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Chipciu Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Costache Ionut",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Deac Ciprian Ioan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Djokovic Damjan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fica Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Hoban Ovidiu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Itu Catalin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Paun-Alexandru Constantin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pereira Michael",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Petrila Claudiu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sylla Yacouba",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vinicius Paulo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Golofca Catalin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Omrani Billel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Rondon Mario",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Traore Lacina",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Tucudean George",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Chindia Târgoviște",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Moldovan Viorel",
+            "players": [
+                        {
+                        "name": "Aioani Mihai",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Moldovan Dinu",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Benga Alexandru",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Corbu Laurentiu",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Diallo Bradley",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dinu Cornel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Martac Marius",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Negrea Alex Tudor",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Rata Vadim",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Berisha Valmir",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bic Ovidiu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Cherchez Georgian Cristian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Dangubic Filip",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Dumitrascu Denis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mihai Liviu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Negut Cristian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Novac Daniel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Piftor Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Serban Andrei",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Barbu Catalin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Florea Daniel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ivancic Josip",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Vodut Mihai",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Dinamo București",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Uhrin Dusan ml.",
+            "players": [
+                        {
+                        "name": "Piscitelli Riccardo",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Straton Catalin",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Gabriel Moura",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Grigore Ricardo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Kilyen Szabolcs",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Kostrna Kristian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Puljic Ante",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Skovajsa Lukas",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bani Ahmed",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bru Kevin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Filip Ioan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lazar Valentin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mihaiu Andreas Mircea",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mrzljak Filip",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rauta Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fabbrini Diego",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Moldoveanu Robert",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Montini Mattia",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Perovic Slavko",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Popa Daniel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Sin Andrei",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "FC Botoșani",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Ciobanu Mihai",
+            "players": [
+                        {
+                        "name": "Hankic Hidajet",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Pap Eduard",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Askovski Stefan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Chindris Andrei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Harut Denis",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Holzmann Marcel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Patache Andrei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Seroni Alin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bautista Cascini Juan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Carlone Alessio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ebenhofer Mario",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rodriguez Jonathan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Roman Mihai",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Tiganasu Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Chalkiadakis Minas",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Cimpanu Alexandru George",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Dugandzic Marko",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Florescu Eduard Marian",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Keyta Hamidou",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Mendoza Bryan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ofosu Reagy",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Papa Enriko",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "FC Hermannstadt",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Miriuta Vasile",
+            "players": [
+                        {
+                        "name": "Alin Pop Ionut",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Cristiano",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Rodrigues Novo Emanuel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Busu Sorin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dobrosavlevici Alin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dumitriu Lucian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Luchin Srdjan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Oprut Raul",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Rimane Kevin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Stoica Ionut",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Viera Ousmane",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Almeida Tiago",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Buzan Lucian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Caiado David",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Dalbea Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Petrescu Petrisor",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Romario",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Taira Afonso",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Tatar Daniel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Voda Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Balan Adrian",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Debeljuh Gabriel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Joalisson",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Plazonja Stjepan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Sintean Andrei",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Yazalde",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "FC Viitorul",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Hagi Gheorghe",
+            "players": [
+                        {
+                        "name": "Cabuz Catalin",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Tordai Arpad",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Boboc Radu",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dussaut Damien",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ghita Virgil-Eugen",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mladen Sebastian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "de Nooijer Bradley",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Achim Vlad",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Artean Andrei",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Casap Carlo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Chitu Aurelian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Dulca Marco",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ganea Cristian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Iacob Paul",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Matei Cosmin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pitu Alexi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rivaldinho",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ciobanu Andrei",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ganea George",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Iancu Cristian Gabriel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Munteanu Louis",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Zoua Jacques",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "FC Voluntari",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Teja Mihai",
+            "players": [
+                        {
+                        "name": "Cojocaru Valentin",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Mitrev Bozidar",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Rimniceanu Victor",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Achim Cosmin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Armas Igor",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Balaur Ionut",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Belu-Iordache Claudiu",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Pascanu Alexandru",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Sanoh Moussa",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Struna Andraz",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vlad Alexandru",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Costin Cristian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Eric",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gheorghe Ion",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gorobsov Nicolas",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Kocic Milan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Laidouni Aissa",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pablo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Matan Alexandru Irinel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Morar Vlad",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Simonovski Marko",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Tira Catalin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Tudorie Alexandru",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "FCSB",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Vintila Bogdan",
+            "players": [
+                        {
+                        "name": "Balgradean Cristian",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Vlad Daniel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Cristea Lucian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Filip Lucian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Miron Andrei George",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Planic Bogdan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cretu Valentin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Momcilovic Marko",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Morutan Olimpiu Vasile",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Nedelcu Dragos",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Oaida Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Perianu Ovidiu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Popa Adrian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Popescu Ovidiu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Soiledis Aristides",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Tanase Florin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Coman Florinel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Gnohere Harlem-Eddy",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Man Dennis",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Olaru Darius",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Petre Adrian",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Vina Ionut",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Gaz Metan Mediaș",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Iordanescu Edward",
+            "players": [
+                        {
+                        "name": "Batista Ricardo",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Plesca Razvan",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Butean Mihai",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Constantin Marius",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Larie Ionut",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Moura Gabriel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Chamed Nasser",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Costea Paul",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Diakota Mickael",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Draghici Stephan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Droppa Lukas",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fofana Boubacar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Hora Ioan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pleasca Marian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Popa Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Romeo Roberto",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rosu Nelut",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Trif Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bus Sergiu",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Dumitru Nicolao",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Fernandes Ely",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Poli Iași",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Rednic Mircea",
+            "players": [
+                        {
+                        "name": "Rusu Denis",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Tarnovanu Stefan",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Didac",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Frasinescu Cosmin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Klimavicius Linas",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mihalache Marius",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Radu Andrei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Assulin Gai",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Badic Narcis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bezannier Mahamadou",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Breeveld Nicandro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "De Iriondo Manuel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gradinaru Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Horsia Ovidiu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Longher Aleksandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Onea Razvan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Passaglia Juan Pablo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Platini",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Popadiuc Doru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Chacana Lucas Nicolas",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Cristea Andrei",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Habibou Habib",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Luckassen Kevin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Omoh Michael",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Zaharia Alexandru",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Sepsi Sf. Gheorghe",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Grozavu Leontin",
+            "players": [
+                        {
+                        "name": "Fejer Bela Csongor",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Niczuly Roland",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Adebanjo Jacob Olorunwa",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bouhenna Rachid",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Celea Daniel Marinel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Csiszer Balazs",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dimitrov Radoslav",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Tincu Razvan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Barisic Hrvoje",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Deaconu Ronaldo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gal-Andrezly Peter",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Kovacs Lorant",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Popescu Calin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Salli Edgar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Stefan Florin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vasvari Gabriel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Velev Dimitrov",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Achahbar Anass",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Carnat Nicolae",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Diaz Tomas",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Dumiter Ioan Andrei Vasile",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Fulop Istvan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Fulop Lorand-Levente",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Karanovic Goran",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Safranko Pavol",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Stefanescu Marius",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Univ. Craiova",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Papura Corneliu",
+            "players": [
+                        {
+                        "name": "Pigliacelli Mirko",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Popescu Laurentiu",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Acka Stephane",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Balasa Mihai Alexandru",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bancu Nicusor Silviu",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cosic Uros",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dielna Claude",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ferreira Tiago",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Martic Ivan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Matel Alexandru",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vatajelu Bogdan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vladoiu Stefan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Barbut Cristian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Cicaldau Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ivanov Antoni",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mateiu Alexandru",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mihaila Valentin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Nistor Dan Nicolae",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Qaka Kamer",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Baiaram Stefan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ivan Andrei Virgil",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Koljic Elvir",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Roman Mihai Alexandru",
+                        "role": "ST"
+                        }
+                        ]
+            }
+            ]
+  },
+  {
+  "leagueName": "LaLiga",
+  "teams": [
+            {
+            "name": "Alaves",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Garitano Asier",
+            "players": [
+                        {
+                        "name": "Pacheco Fernando",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Aguirregabiria Martin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Duarte Ruben",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ely Rodrigo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Laguardia Victor",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Magallan Lisandro",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Marin Adrian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Navarro Ximo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Tachi",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vidal Aleix",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Burke Oliver",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Camarasa Victor",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fejsa Ljubomir",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Garcia Manu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mendez Edgar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pina Tomas",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pons Pere",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sainz Borja",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Joselu",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Perez Lucas",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Rioja Luis",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Ath. Bilbao",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Garitano Gaizka",
+            "players": [
+                        {
+                        "name": "Herrerin Iago",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Simon Unai",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Alvarez Yeray",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Balenziaga Mikel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Berchiche Yuri",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Larrazabal Gaizka",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Martinez Inigo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Nunez Unai",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "San Jose Mikel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "de Marcos Oscar",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Benat",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Capa Ander",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Garcia Dani",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Garcia Raul",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lekue",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lopez Unai",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Muniain Iker",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sancet Ohian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vencedor Unai",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vesga Mikel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Aduriz Aritz",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Cordoba Inigo",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ibai Gomez Perez",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Kodro Kenan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Villalibre Asier",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Williams Inaki",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Atl. Madrid",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Simeone Diego",
+            "players": [
+                        {
+                        "name": "Adan Antonio",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Oblak Jan",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Arias Santiago",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Felipe",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gimenez Jose Maria",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Hermoso Mario",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Renan Lodi",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Riquelme Rodrigo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Savic Stefan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Trippier Kieran",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vrsaljko Sime",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Carrasco Yannick",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Correa Angel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Herrera Hector",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Joao Felix",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Koke",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lemar Thomas",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Llorente Marcos",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Moya Antonio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sanchez Manuel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Saúl",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Thomas",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vitolo Victor",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Camello Sergio",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Clemente Mues Oscar",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Costa Diego",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Morata Alvaro",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Poveda Dario",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Saponjic Ivan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Valera German",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Barcelona",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Setien Quique",
+            "players": [
+                        {
+                        "name": "Neto",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "ter Stegen Marc-Andre",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Alba Jordi",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Araujo Ronald",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Junior Firpo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Lenglet Clement",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Pique Gerard",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Semedo Nelson",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Umtiti Samuel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Arthur",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Busquets Sergio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Collado Alex",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Puig Ricard",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rakitic Ivan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Roberto Sergi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vidal Arturo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "de Jong Frenkie",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Braithwaite Martin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Dembele Ousmane",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Fati Anssumane",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Griezmann Antoine",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Messi Lionel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Suarez Luis",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Betis",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Rubi Joan",
+            "players": [
+                        {
+                        "name": "Martin Fernandez Daniel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Robles Joel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Barragan Antonio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bartra Marc",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Feddal Zouhair",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gonzalez Edgar",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mandi Aissa",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Sidnei",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Alena Carles",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Alfonso",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Canales Sergio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Carvalho William",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fekir Nabil",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Garcia Javi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Guardado Andres",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Joaquin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rodriguez Guido",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Emerson",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Iglesias Borja",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Lainez Leyva Diego",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Loren",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Moreno Alex",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Raul",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Tello Cristian",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Celta Vigo",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Garcia Junyent Oscar",
+            "players": [
+                        {
+                        "name": "Alvarez Sergio",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Blanco Ruben",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Aidoo Joseph",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Araujo Nestor",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Junca David",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mallo Hugo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Murillo Jeison",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Olaza Lucas",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Saenz de Miera Colmeiro Jorge",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vazquez Comesana Kevin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Beltran Francisco",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bradaric Filip",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Diop Pape",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mendez Brais",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rafinha",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Suarez Denis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Yokuslu Okay",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Aspas Iago",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Fernandez Gabriel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Hernandez Garcia Juan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Losada Iker",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Mina Santi",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Sergio",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Sisto Pione",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Smolov Fedor",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Eibar",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Mendilibar Jose",
+            "players": [
+                        {
+                        "name": "Dmitrovic Marko",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Yoel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Arbilla Anaitz",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bigas Pedro",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Burgos Esteban",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Correa Roberto",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cote",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Oliveira Paulo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ramis Ivan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Tejero Alvaro",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Alvarez Sergio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Atienza Miguel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Cristoforo Sebastian",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "De Blasis Pablo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Diop Pape",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "E. Exposito",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Escalante Gonzalo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Inui Takashi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Leon Pedro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Charles",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Enrich Sergio",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Kike Garcia",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Orellana Fabian",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Quique",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Espanyol",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Abelardo",
+            "players": [
+                        {
+                        "name": "Lopez Diego",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Prieto Andres",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Bernardo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cabrera Leandro",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Calero Fernando",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Corchia Sebastien",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Lopez Javi",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Naldo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Pedrosa Adria",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Pipa",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Victor Gomez",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vila Didac",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Darder Sergi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Iturraspe Ander",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lopez David",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lozano Pol",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Melendo Oscar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Roca Marc",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sanchez Victor",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Soni Kevin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vargas Matias",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Wu Lei",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Calleri Jonathan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Campuzano Bonilla Victor",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "De Tomas Raul",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ferreyra Facundo",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Getafe",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Bordalas Pepe",
+            "players": [
+                        {
+                        "name": "Soria David",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Antunes Vitorino",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cabaco Erick",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Chema",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cucu",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Dakonam Djene",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Etxeita Xabier",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Nyom Allan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Olivera Miramontes Mathias",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Suarez Damian",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Arambarri Mauro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Duro Hugo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Etebo Oghenekaro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fajr Faycal",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Kenedy",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Maksimovic Nemanja",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Portillo Francisco",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Timor David",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Angel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Deyverson",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Jason",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Mata Jaime",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Molina Jorge",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ndiaye Amath",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Granada",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Martinez Diego",
+            "players": [
+                        {
+                        "name": "Escandell Aaron",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Silva Rui",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Brice Eteki Yan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Diaz Victor",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Duarte Domingos",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Foulquier Dimitri",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Koybasi Ismail",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Marin Ruiz Joaquin Jose",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Neva Carlos",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Sanchez German",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vallejo Jesus",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Azeez Ramon",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Dias Gil Bastiao",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gonalons Maxime",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Herrera Yangel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Machis Darwin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Martinez Sanchez Alejandro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Montoro Angel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Puertas Antonio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vadillo Alvaro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Soldado Roberto",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Vico Fede",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Leganes",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Aguirre Javier",
+            "players": [
+                        {
+                        "name": "Cuellar Ivan",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Soriano Juan",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Awaziem Chidozie",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bustinza Unai",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Navarro Marc",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Omeruo Kenneth",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Rosales Roberto",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Silva Jonathan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Siovas Dimitrios",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Tarin Rodrigo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Amadou Ibrahim",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Aviles Javier",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Eraso Javier",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Mesa Roque",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Oscar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Perez Ruben",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Recio",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rodrigues Kevin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Assale Roger",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Carrillo Guido",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Gil Bryan",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Guerrero Miguel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ruibal Garcia Aitor",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Levante",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Lopez Paco",
+            "players": [
+                        {
+                        "name": "Fernandez Abarisketa Aitor",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Clerc Carlos",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Coke",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Duarte Oscar",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Falcon Eliseo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gonzalez Bruno",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Pereira Gonzalo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Postigo Sergio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Radoja Nemanja",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Tono",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vezo Ruben",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Bardhi Enis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Campana Jose",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Martinez Andres Pablo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Melero Gonzalo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Miramon Jorge",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Morales Jose",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vukcevic Nikola",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Hernani",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Leon Sergio",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Mayoral Borja",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Rochina Ruben",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Roger Marti",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Mallorca",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Moreno Vicente",
+            "players": [
+                        {
+                        "name": "Fabricio",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Reina Manolo",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Agbenyenu Lumor",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Baba Rahman",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Campos Xisco",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gamez Lopez Francisco",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Koutris Leonardo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Raillo Antonio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Sastre Joan",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Sedlar Aleksandar",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Valjent Martin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Baba Mohammed Iddrisu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Febas Aleix",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ki Sung-Yong",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pozo Alejandro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rodriguez Daniel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Salibur Yannis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sene Josep",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sevilla Salva",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Budimir Ante",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Chavarria Pablo",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Cucho",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Junior Lago",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Kubo Takefusa",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Pedraza Marc",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Prats Abdon",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Trajkovski Aleksandar",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Osasuna",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Arrasate Jagoba",
+            "players": [
+                        {
+                        "name": "Herrera Sergio",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Perez Juan",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Ruben",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Aridane",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Garcia David",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Garcia Unai",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Latorre Antonio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Navas Raul",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Oier",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Roncaglia Facundo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Vidal Nacho",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Barja Enrique",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Brasanac Darko",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Estupinan Pervis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Garcia Ruben",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ibanez Robert",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Jose Manuel Arnaiz Diaz",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Merida Fran",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Perez Inigo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Torres Roberto",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Adrian",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Avila Luis Ezequiel",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Cardona Rovira Marc",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Enric",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Real Madrid",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Zidane Zinedine",
+            "players": [
+                        {
+                        "name": "Areola Alphonse",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Courtois Thibaut",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Carvajal Daniel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Marcelo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mendy Ferland",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Militao Eder",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Nacho",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Ramos Sergio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Varane Raphael",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Casemiro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Diaz Brahim",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Isco",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Kroos Toni",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lucas",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Modric Luka",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rodriguez James",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rodrygo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Valverde Federico",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Bale Gareth",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Benzema Karim",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Hazard Eden",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Jovic Luka",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Junior Vinicius",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Mariano",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Real Sociedad",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Alguacil Imanol",
+            "players": [
+                        {
+                        "name": "Moya Miguel Angel",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Remiro Alejandro",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Elustondo Aritz",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gorosabel Andoni",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Le Normand Robin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Llorente Diego",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Monreal Nacho",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Munoz Aihen",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Zaldua Joseba",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Guevara Ander",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Januzaj Adnan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Merino Mikel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Odegaard Martin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Oyarzabal Mikel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Portu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Sangalli Luca",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Zubeldia Igor",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Zurutuza David",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Barrenetxea Muguruza Ander",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Isak Alexander",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Willian Jose Da Silva",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Sevilla",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Lopetegui Julen",
+            "players": [
+                        {
+                        "name": "Bono",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Vaclik Tomas",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Diego Carlos",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Escudero Sergio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gomez Sergi",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Kounde Jules",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Reguilon Sergio",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Banega Ever",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fernando",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gudelj Nemanja",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Jordan Joan",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Navas Jesus",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Rony Lopes",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Suso",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Torres Oliver",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Vazquez Franco",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "El Haddadi Munir",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "En Nesyri Youssef",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Nolito",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ocampos Lucas",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "de Jong Luuk",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Valencia",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Celades Albert",
+            "players": [
+                        {
+                        "name": "Cillessen Jasper",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Domenech Jaume",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Correia Thierry",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Costa Jaume",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gabriel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Garay Ezequiel",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Gaya Jose",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Guillamon Sanmartin Hugo",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mangala Eliaquim",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Coquelin Francis",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Diakhaby Mouctar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Esquerdo Vicente",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Florenzi Alessandro",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Kondogbia Geoffrey",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Lee Kangin",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Parejo Daniel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Soler Carlos",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Wass Daniel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Cheryshev Denis",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Gameiro Kevin",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Gomez Maximiliano",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Guedes Goncalo",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Rodrigo",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Sobrino Ruben",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Torres Ferran",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Vallejo Manu",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Valladolid",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Sergio",
+            "players": [
+                        {
+                        "name": "Masip Jordi",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Antonito",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Fernandez Joaquin",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Garcia Raul",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Kiko",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Moyano Javi",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Nacho",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Porro Pedro",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Salisu Mohammed",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Alcaraz Ruben",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Ben Arfa Hatem",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Fede",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Hervias Pablo",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Michel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Plano Oscar",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Villa Toni",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Guardiola Sergio",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ramirez Sandro",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Rubio Waldo",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Unal Enes",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "de la Fuente Miguel",
+                        "role": "ST"
+                        }
+                        ]
+            },
+            {
+            "name": "Villarreal",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Calleja Revilla Javier",
+            "players": [
+                        {
+                        "name": "Asenjo Sergio",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Fernandez Andres",
+                        "role": "GK"
+                        },
+                        {
+                        "name": "Albiol Raul",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mario Gaspar",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Moreno Alberto",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Mori Ramiro",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Quintilla Xavier",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Torres Pau Francisco",
+                        "role": "CB"
+                        },
+                        {
+                        "name": "Cazorla Santi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Chukwueze Samuel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Gomez Moi",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Iborra",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Morlanes Manu",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Pena Ruben",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Trigueros Manuel",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Zambo Anguissa Andre-Frank",
+                        "role": "CM"
+                        },
+                        {
+                        "name": "Alcacer Paco",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Bacca Carlos",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Moreno Gerard",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Nino Fer",
+                        "role": "ST"
+                        },
+                        {
+                        "name": "Ontiveros Parra Javier",
+                        "role": "ST"
+                        }
+                        ]
+            }
+            ]
+  }
+  ]

@@ -1,0 +1,5138 @@
+ [
+  {
+  "leagueName": "Liga 1",
+  "teams": [
+            {
+            "name": "Academica Clinceni",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Poenaru Ilie",
+            "players": [
+                        {
+                        "name": "Santos Miguel",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Valceanu Octavian",
+                        "role": "GK",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Albu Cristian",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Humanes David",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ilie Bogdan Mihai",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kontoes Giannis",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Matei Gabriel",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Parvulescu Paul",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Patriche Nichita",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Achim Florin",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bejan Florin",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cebotaru Eugeniu",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Deretti Jean",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ion Robert",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Merloi George",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ndongala Aristode",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sut Adrian",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ventura Denis",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Buziuc Alexandru",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Markovici Jovan",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moussa Sofien",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popescu Alexandru Ionut",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vojtus Jakub",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Astra Giurgiu",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Andone Bogdan Ioan",
+            "players": [
+                        {
+                        "name": "Kitanov George",
+                        "role": "GK",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lazar David Beniamin",
+                        "role": "GK",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dandea Alexandru",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "David Bruno",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dima Constantin Cristian",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gheorghe Valentin",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Graovac Danijel",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Radunovic Risto",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tamas Gabriel",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Trusescu Andrei",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Begue Julien",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Biceanu Ciprian",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Biceanu Ionut",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Crepulja Ljuban",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ionita Alexandru",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Radut Mihai",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Serban Gabriel",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Seto Takayuki",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Simion Gabriel Bogdan",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ajayi Goodness",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alibec Denis",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Baicu Raoul Petre",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Balaure Silviu",
+                        "role": "ST",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Budescu Constantin",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fatai Kehinde",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tounkara Oumare",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "CFR Cluj",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Petrescu Dan",
+            "players": [
+                        {
+                        "name": "Arlauskis Giedrius",
+                        "role": "GK",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rus Adrian",
+                        "role": "GK",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sandomierski Grzegorz",
+                        "role": "GK",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aurelio Luis",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Boli Kevin",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Burca Andrei",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cestor Mike",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ciobotariu Denis",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Joca Andrei",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Manea Cristian",
+                        "role": "CB",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Susic Mateo",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bordeianu Mihai",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Camora",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chipciu Alexandru",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Costache Ionut",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Deac Ciprian Ioan",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Djokovic Damjan",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fica Razvan",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hoban Ovidiu",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Itu Catalin",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Paun-Alexandru Constantin",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pereira Michael",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Petrila Claudiu",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sylla Yacouba",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vinicius Paulo",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Golofca Catalin",
+                        "role": "ST",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Omrani Billel",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rondon Mario",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Traore Lacina",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tucudean George",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Chindia Târgoviște",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Moldovan Viorel",
+            "players": [
+                        {
+                        "name": "Aioani Mihai",
+                        "role": "GK",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moldovan Dinu",
+                        "role": "GK",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Benga Alexandru",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Corbu Laurentiu",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diallo Bradley",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dinu Cornel",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Martac Marius",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Negrea Alex Tudor",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rata Vadim",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Berisha Valmir",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bic Ovidiu",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cherchez Georgian Cristian",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dangubic Filip",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dumitrascu Denis",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mihai Liviu",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Negut Cristian",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Novac Daniel",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Piftor Alexandru",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Serban Andrei",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Barbu Catalin",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Florea Daniel",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ivancic Josip",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vodut Mihai",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Dinamo București",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Uhrin Dusan ml.",
+            "players": [
+                        {
+                        "name": "Piscitelli Riccardo",
+                        "role": "GK",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Straton Catalin",
+                        "role": "GK",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gabriel Moura",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Grigore Ricardo",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kilyen Szabolcs",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kostrna Kristian",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Puljic Ante",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Skovajsa Lukas",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bani Ahmed",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bru Kevin",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Filip Ioan",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lazar Valentin",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mihaiu Andreas Mircea",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mrzljak Filip",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rauta Alexandru",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fabbrini Diego",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moldoveanu Robert",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Montini Mattia",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Perovic Slavko",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popa Daniel",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sin Andrei",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "FC Botoșani",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Ciobanu Mihai",
+            "players": [
+                        {
+                        "name": "Hankic Hidajet",
+                        "role": "GK",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pap Eduard",
+                        "role": "GK",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Askovski Stefan",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chindris Andrei",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Harut Denis",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Holzmann Marcel",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Patache Andrei",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Seroni Alin",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bautista Cascini Juan",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Carlone Alessio",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ebenhofer Mario",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodriguez Jonathan",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Roman Mihai",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tiganasu Alexandru",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chalkiadakis Minas",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cimpanu Alexandru George",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dugandzic Marko",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Florescu Eduard Marian",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Keyta Hamidou",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mendoza Bryan",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ofosu Reagy",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Papa Enriko",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "FC Hermannstadt",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Miriuta Vasile",
+            "players": [
+                        {
+                        "name": "Alin Pop Ionut",
+                        "role": "GK",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cristiano",
+                        "role": "GK",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodrigues Novo Emanuel",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Busu Sorin",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dobrosavlevici Alin",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dumitriu Lucian",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Luchin Srdjan",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oprut Raul",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rimane Kevin",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Stoica Ionut",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Viera Ousmane",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Almeida Tiago",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Buzan Lucian",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Caiado David",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dalbea Razvan",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Petrescu Petrisor",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Romario",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Taira Afonso",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tatar Daniel",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Voda Alexandru",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Balan Adrian",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Debeljuh Gabriel",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Joalisson",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Plazonja Stjepan",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sintean Andrei",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Yazalde",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "FC Viitorul",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Hagi Gheorghe",
+            "players": [
+                        {
+                        "name": "Cabuz Catalin",
+                        "role": "GK",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tordai Arpad",
+                        "role": "GK",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Boboc Radu",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dussaut Damien",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ghita Virgil-Eugen",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mladen Sebastian",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "de Nooijer Bradley",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Achim Vlad",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Artean Andrei",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Casap Carlo",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chitu Aurelian",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dulca Marco",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ganea Cristian",
+                        "role": "CM",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Iacob Paul",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Matei Cosmin",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pitu Alexi",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rivaldinho",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ciobanu Andrei",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ganea George",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Iancu Cristian Gabriel",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Munteanu Louis",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Zoua Jacques",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "FC Voluntari",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Teja Mihai",
+            "players": [
+                        {
+                        "name": "Cojocaru Valentin",
+                        "role": "GK",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mitrev Bozidar",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rimniceanu Victor",
+                        "role": "GK",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Achim Cosmin",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Armas Igor",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Balaur Ionut",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Belu-Iordache Claudiu",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pascanu Alexandru",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sanoh Moussa",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Struna Andraz",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vlad Alexandru",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Costin Cristian",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Eric",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gheorghe Ion",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gorobsov Nicolas",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kocic Milan",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Laidouni Aissa",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pablo",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Matan Alexandru Irinel",
+                        "role": "ST",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Morar Vlad",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Simonovski Marko",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tira Catalin",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tudorie Alexandru",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "FCSB",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Vintila Bogdan",
+            "players": [
+                        {
+                        "name": "Balgradean Cristian",
+                        "role": "GK",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vlad Daniel",
+                        "role": "GK",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cristea Lucian",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Filip Lucian",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Miron Andrei George",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Planic Bogdan",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cretu Valentin",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Momcilovic Marko",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Morutan Olimpiu Vasile",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nedelcu Dragos",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oaida Razvan",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Perianu Ovidiu",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popa Adrian",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popescu Ovidiu",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Soiledis Aristides",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tanase Florin",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Coman Florinel",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gnohere Harlem-Eddy",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Man Dennis",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Olaru Darius",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Petre Adrian",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vina Ionut",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Gaz Metan Mediaș",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Iordanescu Edward",
+            "players": [
+                        {
+                        "name": "Batista Ricardo",
+                        "role": "GK",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Plesca Razvan",
+                        "role": "GK",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Butean Mihai",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Constantin Marius",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Larie Ionut",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moura Gabriel",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chamed Nasser",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Costea Paul",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diakota Mickael",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Draghici Stephan",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Droppa Lukas",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fofana Boubacar",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hora Ioan",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pleasca Marian",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popa Razvan",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Romeo Roberto",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rosu Nelut",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Trif Razvan",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bus Sergiu",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dumitru Nicolao",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fernandes Ely",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Poli Iași",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Rednic Mircea",
+            "players": [
+                        {
+                        "name": "Rusu Denis",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tarnovanu Stefan",
+                        "role": "GK",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Didac",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Frasinescu Cosmin",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Klimavicius Linas",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mihalache Marius",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Radu Andrei",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Assulin Gai",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Badic Narcis",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bezannier Mahamadou",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Breeveld Nicandro",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "De Iriondo Manuel",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gradinaru Razvan",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Horsia Ovidiu",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Longher Aleksandru",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Onea Razvan",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Passaglia Juan Pablo",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Platini",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popadiuc Doru",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chacana Lucas Nicolas",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cristea Andrei",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Habibou Habib",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Luckassen Kevin",
+                        "role": "ST",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Omoh Michael",
+                        "role": "ST",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Zaharia Alexandru",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Sepsi Sf. Gheorghe",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Grozavu Leontin",
+            "players": [
+                        {
+                        "name": "Fejer Bela Csongor",
+                        "role": "GK",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Niczuly Roland",
+                        "role": "GK",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Adebanjo Jacob Olorunwa",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bouhenna Rachid",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Celea Daniel Marinel",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Csiszer Balazs",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dimitrov Radoslav",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tincu Razvan",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Barisic Hrvoje",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Deaconu Ronaldo",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gal-Andrezly Peter",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kovacs Lorant",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popescu Calin",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Salli Edgar",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Stefan Florin",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vasvari Gabriel",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Velev Dimitrov",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Achahbar Anass",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Carnat Nicolae",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diaz Tomas",
+                        "role": "ST",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dumiter Ioan Andrei Vasile",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fulop Istvan",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fulop Lorand-Levente",
+                        "role": "ST",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Karanovic Goran",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Safranko Pavol",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Stefanescu Marius",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Univ. Craiova",
+            "country": "România",
+            "league": "Liga 1",
+            "manager": "Papura Corneliu",
+            "players": [
+                        {
+                        "name": "Pigliacelli Mirko",
+                        "role": "GK",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Popescu Laurentiu",
+                        "role": "GK",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Acka Stephane",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Balasa Mihai Alexandru",
+                        "role": "CB",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bancu Nicusor Silviu",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cosic Uros",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dielna Claude",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ferreira Tiago",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Martic Ivan",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Matel Alexandru",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vatajelu Bogdan",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vladoiu Stefan",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Barbut Cristian",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cicaldau Alexandru",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ivanov Antoni",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mateiu Alexandru",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mihaila Valentin",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nistor Dan Nicolae",
+                        "role": "CM",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Qaka Kamer",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Baiaram Stefan",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ivan Andrei Virgil",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Koljic Elvir",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Roman Mihai Alexandru",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        }
+                        ]
+            }
+            ]
+  },
+  {
+  "leagueName": "LaLiga",
+  "teams": [
+            {
+            "name": "Alaves",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Garitano Asier",
+            "players": [
+                        {
+                        "name": "Pacheco Fernando",
+                        "role": "GK",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aguirregabiria Martin",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Duarte Ruben",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ely Rodrigo",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Laguardia Victor",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Magallan Lisandro",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Marin Adrian",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Navarro Ximo",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tachi",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vidal Aleix",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Burke Oliver",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Camarasa Victor",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fejsa Ljubomir",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Manu",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mendez Edgar",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pina Tomas",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pons Pere",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sainz Borja",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Joselu",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Perez Lucas",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rioja Luis",
+                        "role": "ST",
+                        "rating": 70,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Ath. Bilbao",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Garitano Gaizka",
+            "players": [
+                        {
+                        "name": "Herrerin Iago",
+                        "role": "GK",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Simon Unai",
+                        "role": "GK",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alvarez Yeray",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Balenziaga Mikel",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Berchiche Yuri",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Larrazabal Gaizka",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Martinez Inigo",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nunez Unai",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "San Jose Mikel",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "de Marcos Oscar",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Benat",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Capa Ander",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Dani",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Raul",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lekue",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lopez Unai",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Muniain Iker",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sancet Ohian",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vencedor Unai",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vesga Mikel",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aduriz Aritz",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cordoba Inigo",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ibai Gomez Perez",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kodro Kenan",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Villalibre Asier",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Williams Inaki",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Atl. Madrid",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Simeone Diego",
+            "players": [
+                        {
+                        "name": "Adan Antonio",
+                        "role": "GK",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oblak Jan",
+                        "role": "GK",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Arias Santiago",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Felipe",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gimenez Jose Maria",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hermoso Mario",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Renan Lodi",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Riquelme Rodrigo",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Savic Stefan",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Trippier Kieran",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vrsaljko Sime",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Carrasco Yannick",
+                        "role": "CM",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Correa Angel",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Herrera Hector",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Joao Felix",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Koke",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lemar Thomas",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Llorente Marcos",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moya Antonio",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sanchez Manuel",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Saúl",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Thomas",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vitolo Victor",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Camello Sergio",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Clemente Mues Oscar",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Costa Diego",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Morata Alvaro",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Poveda Dario",
+                        "role": "ST",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Saponjic Ivan",
+                        "role": "ST",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Valera German",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Barcelona",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Setien Quique",
+            "players": [
+                        {
+                        "name": "Neto",
+                        "role": "GK",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "ter Stegen Marc-Andre",
+                        "role": "GK",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alba Jordi",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Araujo Ronald",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Junior Firpo",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lenglet Clement",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pique Gerard",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Semedo Nelson",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Umtiti Samuel",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Arthur",
+                        "role": "CM",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Busquets Sergio",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Collado Alex",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Puig Ricard",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rakitic Ivan",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Roberto Sergi",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vidal Arturo",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "de Jong Frenkie",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Braithwaite Martin",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dembele Ousmane",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fati Anssumane",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Griezmann Antoine",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Messi Lionel",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Suarez Luis",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Betis",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Rubi Joan",
+            "players": [
+                        {
+                        "name": "Martin Fernandez Daniel",
+                        "role": "GK",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Robles Joel",
+                        "role": "GK",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Barragan Antonio",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bartra Marc",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Feddal Zouhair",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gonzalez Edgar",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mandi Aissa",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sidnei",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alena Carles",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alfonso",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Canales Sergio",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Carvalho William",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fekir Nabil",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Javi",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Guardado Andres",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Joaquin",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodriguez Guido",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Emerson",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Iglesias Borja",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lainez Leyva Diego",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Loren",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moreno Alex",
+                        "role": "ST",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Raul",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tello Cristian",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Celta Vigo",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Garcia Junyent Oscar",
+            "players": [
+                        {
+                        "name": "Alvarez Sergio",
+                        "role": "GK",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Blanco Ruben",
+                        "role": "GK",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aidoo Joseph",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Araujo Nestor",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Junca David",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mallo Hugo",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Murillo Jeison",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Olaza Lucas",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Saenz de Miera Colmeiro Jorge",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vazquez Comesana Kevin",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Beltran Francisco",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bradaric Filip",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diop Pape",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mendez Brais",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rafinha",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Suarez Denis",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Yokuslu Okay",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aspas Iago",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fernandez Gabriel",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hernandez Garcia Juan",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Losada Iker",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mina Santi",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sergio",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sisto Pione",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Smolov Fedor",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Eibar",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Mendilibar Jose",
+            "players": [
+                        {
+                        "name": "Dmitrovic Marko",
+                        "role": "GK",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Yoel",
+                        "role": "GK",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Arbilla Anaitz",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bigas Pedro",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Burgos Esteban",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Correa Roberto",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cote",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oliveira Paulo",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ramis Ivan",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tejero Alvaro",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alvarez Sergio",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Atienza Miguel",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cristoforo Sebastian",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "De Blasis Pablo",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diop Pape",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "E. Exposito",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Escalante Gonzalo",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Inui Takashi",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Leon Pedro",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Charles",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Enrich Sergio",
+                        "role": "ST",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kike Garcia",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Orellana Fabian",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Quique",
+                        "role": "ST",
+                        "rating": 74,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Espanyol",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Abelardo",
+            "players": [
+                        {
+                        "name": "Lopez Diego",
+                        "role": "GK",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Prieto Andres",
+                        "role": "GK",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bernardo",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cabrera Leandro",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Calero Fernando",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Corchia Sebastien",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lopez Javi",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Naldo",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pedrosa Adria",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pipa",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Victor Gomez",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vila Didac",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Darder Sergi",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Iturraspe Ander",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lopez David",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lozano Pol",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Melendo Oscar",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Roca Marc",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sanchez Victor",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Soni Kevin",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vargas Matias",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Wu Lei",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Calleri Jonathan",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Campuzano Bonilla Victor",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "De Tomas Raul",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ferreyra Facundo",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Getafe",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Bordalas Pepe",
+            "players": [
+                        {
+                        "name": "Soria David",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Antunes Vitorino",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cabaco Erick",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chema",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cucu",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dakonam Djene",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Etxeita Xabier",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nyom Allan",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Olivera Miramontes Mathias",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Suarez Damian",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Arambarri Mauro",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Duro Hugo",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Etebo Oghenekaro",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fajr Faycal",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kenedy",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Maksimovic Nemanja",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Portillo Francisco",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Timor David",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Angel",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Deyverson",
+                        "role": "ST",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Jason",
+                        "role": "ST",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mata Jaime",
+                        "role": "ST",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Molina Jorge",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ndiaye Amath",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Granada",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Martinez Diego",
+            "players": [
+                        {
+                        "name": "Escandell Aaron",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Silva Rui",
+                        "role": "GK",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Brice Eteki Yan",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diaz Victor",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Duarte Domingos",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Foulquier Dimitri",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Koybasi Ismail",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Marin Ruiz Joaquin Jose",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Neva Carlos",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sanchez German",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vallejo Jesus",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Azeez Ramon",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Dias Gil Bastiao",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gonalons Maxime",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Herrera Yangel",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Machis Darwin",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Martinez Sanchez Alejandro",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Montoro Angel",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Puertas Antonio",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vadillo Alvaro",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Soldado Roberto",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vico Fede",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Leganes",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Aguirre Javier",
+            "players": [
+                        {
+                        "name": "Cuellar Ivan",
+                        "role": "GK",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Soriano Juan",
+                        "role": "GK",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Awaziem Chidozie",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bustinza Unai",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Navarro Marc",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Omeruo Kenneth",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rosales Roberto",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Silva Jonathan",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Siovas Dimitrios",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tarin Rodrigo",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Amadou Ibrahim",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aviles Javier",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Eraso Javier",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mesa Roque",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oscar",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Perez Ruben",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Recio",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodrigues Kevin",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Assale Roger",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Carrillo Guido",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gil Bryan",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Guerrero Miguel",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ruibal Garcia Aitor",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Levante",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Lopez Paco",
+            "players": [
+                        {
+                        "name": "Fernandez Abarisketa Aitor",
+                        "role": "GK",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Clerc Carlos",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Coke",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Duarte Oscar",
+                        "role": "CB",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Falcon Eliseo",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gonzalez Bruno",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pereira Gonzalo",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Postigo Sergio",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Radoja Nemanja",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Tono",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vezo Ruben",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bardhi Enis",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Campana Jose",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Martinez Andres Pablo",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Melero Gonzalo",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Miramon Jorge",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Morales Jose",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vukcevic Nikola",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hernani",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Leon Sergio",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mayoral Borja",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rochina Ruben",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Roger Marti",
+                        "role": "ST",
+                        "rating": 74,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Mallorca",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Moreno Vicente",
+            "players": [
+                        {
+                        "name": "Fabricio",
+                        "role": "GK",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Reina Manolo",
+                        "role": "GK",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Agbenyenu Lumor",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Baba Rahman",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Campos Xisco",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gamez Lopez Francisco",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Koutris Leonardo",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Raillo Antonio",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sastre Joan",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sedlar Aleksandar",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Valjent Martin",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Baba Mohammed Iddrisu",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Febas Aleix",
+                        "role": "CM",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ki Sung-Yong",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pozo Alejandro",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodriguez Daniel",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Salibur Yannis",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sene Josep",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sevilla Salva",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Budimir Ante",
+                        "role": "ST",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chavarria Pablo",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cucho",
+                        "role": "ST",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Junior Lago",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kubo Takefusa",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pedraza Marc",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Prats Abdon",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Trajkovski Aleksandar",
+                        "role": "ST",
+                        "rating": 83,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Osasuna",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Arrasate Jagoba",
+            "players": [
+                        {
+                        "name": "Herrera Sergio",
+                        "role": "GK",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Perez Juan",
+                        "role": "GK",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ruben",
+                        "role": "GK",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Aridane",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia David",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Unai",
+                        "role": "CB",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Latorre Antonio",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Navas Raul",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oier",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Roncaglia Facundo",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vidal Nacho",
+                        "role": "CB",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Barja Enrique",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Brasanac Darko",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Estupinan Pervis",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Ruben",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ibanez Robert",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Jose Manuel Arnaiz Diaz",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Merida Fran",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Perez Inigo",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Torres Roberto",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Adrian",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Avila Luis Ezequiel",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cardona Rovira Marc",
+                        "role": "ST",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Enric",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Real Madrid",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Zidane Zinedine",
+            "players": [
+                        {
+                        "name": "Areola Alphonse",
+                        "role": "GK",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Courtois Thibaut",
+                        "role": "GK",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Carvajal Daniel",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Marcelo",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mendy Ferland",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Militao Eder",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nacho",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ramos Sergio",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Varane Raphael",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Casemiro",
+                        "role": "CM",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diaz Brahim",
+                        "role": "CM",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Isco",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kroos Toni",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lucas",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Modric Luka",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodriguez James",
+                        "role": "CM",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodrygo",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Valverde Federico",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bale Gareth",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Benzema Karim",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hazard Eden",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Jovic Luka",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Junior Vinicius",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mariano",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Real Sociedad",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Alguacil Imanol",
+            "players": [
+                        {
+                        "name": "Moya Miguel Angel",
+                        "role": "GK",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Remiro Alejandro",
+                        "role": "GK",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Elustondo Aritz",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gorosabel Andoni",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Le Normand Robin",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Llorente Diego",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Monreal Nacho",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Munoz Aihen",
+                        "role": "CB",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Zaldua Joseba",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Guevara Ander",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Januzaj Adnan",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Merino Mikel",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Odegaard Martin",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Oyarzabal Mikel",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Portu",
+                        "role": "CM",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sangalli Luca",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Zubeldia Igor",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Zurutuza David",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Barrenetxea Muguruza Ander",
+                        "role": "ST",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Isak Alexander",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Willian Jose Da Silva",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Sevilla",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Lopetegui Julen",
+            "players": [
+                        {
+                        "name": "Bono",
+                        "role": "GK",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vaclik Tomas",
+                        "role": "GK",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diego Carlos",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Escudero Sergio",
+                        "role": "CB",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gomez Sergi",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kounde Jules",
+                        "role": "CB",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Reguilon Sergio",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Banega Ever",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fernando",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gudelj Nemanja",
+                        "role": "CM",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Jordan Joan",
+                        "role": "CM",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Navas Jesus",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rony Lopes",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Suso",
+                        "role": "CM",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Torres Oliver",
+                        "role": "CM",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vazquez Franco",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "El Haddadi Munir",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "En Nesyri Youssef",
+                        "role": "ST",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nolito",
+                        "role": "ST",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ocampos Lucas",
+                        "role": "ST",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "de Jong Luuk",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Valencia",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Celades Albert",
+            "players": [
+                        {
+                        "name": "Cillessen Jasper",
+                        "role": "GK",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Domenech Jaume",
+                        "role": "GK",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Correia Thierry",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Costa Jaume",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gabriel",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garay Ezequiel",
+                        "role": "CB",
+                        "rating": 87,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gaya Jose",
+                        "role": "CB",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Guillamon Sanmartin Hugo",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mangala Eliaquim",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Coquelin Francis",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Diakhaby Mouctar",
+                        "role": "CM",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Esquerdo Vicente",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Florenzi Alessandro",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kondogbia Geoffrey",
+                        "role": "CM",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Lee Kangin",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Parejo Daniel",
+                        "role": "CM",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Soler Carlos",
+                        "role": "CM",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Wass Daniel",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cheryshev Denis",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gameiro Kevin",
+                        "role": "ST",
+                        "rating": 75,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gomez Maximiliano",
+                        "role": "ST",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Guedes Goncalo",
+                        "role": "ST",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rodrigo",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Sobrino Ruben",
+                        "role": "ST",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Torres Ferran",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Vallejo Manu",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Valladolid",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Sergio",
+            "players": [
+                        {
+                        "name": "Masip Jordi",
+                        "role": "GK",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Antonito",
+                        "role": "CB",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fernandez Joaquin",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Garcia Raul",
+                        "role": "CB",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Kiko",
+                        "role": "CB",
+                        "rating": 83,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moyano Javi",
+                        "role": "CB",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nacho",
+                        "role": "CB",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Porro Pedro",
+                        "role": "CB",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Salisu Mohammed",
+                        "role": "CB",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alcaraz Ruben",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ben Arfa Hatem",
+                        "role": "CM",
+                        "rating": 76,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fede",
+                        "role": "CM",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Hervias Pablo",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Michel",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Plano Oscar",
+                        "role": "CM",
+                        "rating": 74,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Villa Toni",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Guardiola Sergio",
+                        "role": "ST",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ramirez Sandro",
+                        "role": "ST",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Rubio Waldo",
+                        "role": "ST",
+                        "rating": 82,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Unal Enes",
+                        "role": "ST",
+                        "rating": 81,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "de la Fuente Miguel",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        }
+                        ]
+            },
+            {
+            "name": "Villarreal",
+            "country": "Spania",
+            "league": "LaLiga",
+            "manager": "Calleja Revilla Javier",
+            "players": [
+                        {
+                        "name": "Asenjo Sergio",
+                        "role": "GK",
+                        "rating": 89,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Fernandez Andres",
+                        "role": "GK",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Albiol Raul",
+                        "role": "CB",
+                        "rating": 72,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mario Gaspar",
+                        "role": "CB",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moreno Alberto",
+                        "role": "CB",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Mori Ramiro",
+                        "role": "CB",
+                        "rating": 80,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Quintilla Xavier",
+                        "role": "CB",
+                        "rating": 71,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Torres Pau Francisco",
+                        "role": "CB",
+                        "rating": 73,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Cazorla Santi",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Chukwueze Samuel",
+                        "role": "CM",
+                        "rating": 85,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Gomez Moi",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Iborra",
+                        "role": "CM",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Morlanes Manu",
+                        "role": "CM",
+                        "rating": 70,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Pena Ruben",
+                        "role": "CM",
+                        "rating": 90,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Trigueros Manuel",
+                        "role": "CM",
+                        "rating": 77,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Zambo Anguissa Andre-Frank",
+                        "role": "CM",
+                        "rating": 88,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Alcacer Paco",
+                        "role": "ST",
+                        "rating": 84,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Bacca Carlos",
+                        "role": "ST",
+                        "rating": 86,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Moreno Gerard",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Nino Fer",
+                        "role": "ST",
+                        "rating": 78,
+                        "stamina": 100
+                        },
+                        {
+                        "name": "Ontiveros Parra Javier",
+                        "role": "ST",
+                        "rating": 79,
+                        "stamina": 100
+                        }
+                        ]
+            }
+            ]
+  }
+  ]
