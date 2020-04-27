@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         ViewController.assignbackground(self.view);
         //let x = CreateViewController.loadJSON(fileURL: "gameData")
-        //AppUsers.clearData()
+        AppUsers.clearData()
     }
 
     override var prefersStatusBarHidden: Bool{

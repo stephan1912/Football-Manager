@@ -14,6 +14,8 @@ class Player: NSObject, NSCoding{
     var stamina: Int = 0;
     var rating: Int = 0;
     var redCard: Bool = false;
+    var teamRole: TeamRoles = TeamRoles.Reserved;
+    
     override init() {
     }
     required init?(coder aDecoder: NSCoder) {
@@ -22,6 +24,7 @@ class Player: NSObject, NSCoding{
         self.stamina = Int(aDecoder.decodeInt32(forKey: "stamina"))
         self.rating = Int(aDecoder.decodeInt32(forKey: "rating"))
         self.redCard = Bool(aDecoder.decodeBool(forKey: "redCard"))
+        self.teamRole = TeamRoles(rawValue: aDecoder.decodeObject(forKey: "teamRole") as! String)!
     }
     
     func encode(with aCoder: NSCoder) {
@@ -30,5 +33,6 @@ class Player: NSObject, NSCoding{
         aCoder.encode(stamina, forKey: "stamina")
         aCoder.encode(rating, forKey: "rating")
         aCoder.encode(redCard, forKey: "redCard")
+        aCoder.encode(teamRole.rawValue, forKey: "teamRole")
     }
 }

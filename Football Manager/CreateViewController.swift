@@ -138,6 +138,7 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
                     player.stamina = (pl["stamina"] as? Int)!
                     team.players.append(player)
                 }
+                team.generateStarting11()
                 league.Teams.append(team)
             }
             leagues.append(league)

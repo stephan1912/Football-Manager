@@ -24,7 +24,9 @@ class ProfileViewController: UIViewController {
         clubLabel.text = "Echipa: " + userData.ClubName
         currentRoundLabel.text = "Etapa: " + String(userData.ScoreB.CurrentRound)
         nextOponentLabel.text = "Urmatorul meci: " + (userData.ScoreB.getNextOpponent(teamName: userData.ClubName)?.name)!
-        ViewController.assignbackground(self.view);        // Do any additional setup after loading the view.
+        ViewController.assignbackground(self.view);
+        
+        // Do any additional setup after loading the view.
     }
     
     override var prefersStatusBarHidden: Bool{
@@ -57,9 +59,18 @@ class ProfileViewController: UIViewController {
         navigationController?.pushViewController(mainView, animated: false)
     }
     @IBAction func goToSimulateRound(_ sender: Any) {
-        userData.ScoreB.simulateRound()
-        currentRoundLabel.text = "Etapa: " + String(userData.ScoreB.CurrentRound)
-        nextOponentLabel.text = "Urmatorul meci: " + (userData.ScoreB.getNextOpponent(teamName: userData.ClubName)?.name)!
+        let check = userData.getTeam().performCheck()
+        if check == GameError.NoError{
+            userData.ScoreB.simulateRound()
+            currentRoundLabel.text = "Etapa: " + String(userData.ScoreB.CurrentRound)
+            nextOponentLabel.text = "Urmatorul meci: " + (userData.ScoreB.getNextOpponent(teamName: userData.ClubName)?.name)!
+        }
+        else{
+            let alert = UIAlertController(title: "Oops", message: check.rawValue, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Vezi Echipa", style: UIAlertActionStyle.default, handler: goToMyTeam))
+            alert.addAction(UIAlertAction(title: "Inchide", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
         
     }
 

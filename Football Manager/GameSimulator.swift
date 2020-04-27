@@ -9,24 +9,21 @@
 import Foundation
 class GameSimulator{
     
-    static func simulateRound(scoreb: ScoreBoard) -> ScoreBoard{
-        let result = scoreb
-        let round = scoreb.Rounds[scoreb.CurrentRound]
-        for i in (0...round.Games.count){
-            let gr = GameSimulator.simulateGame(home: round.Games[i].HomeTeam, away: round.Games[i].AwayTeam)
-            round.Games[i].AwayGoals = gr.awayScore
-            round.Games[i].HomeGoals = gr.homeScore
-            
-            result.updateTeamStatsByName(name: round.Games[i].HomeTeam.name, gs: gr.homeScore, gr: gr.awayScore)
-            result.updateTeamStatsByName(name: round.Games[i].AwayTeam.name, gs: gr.awayScore, gr: gr.homeScore)            //to add round events
-        }
-        
-        result.CurrentRound = result.CurrentRound + 1
-        return result
-    }
     
     static func simulateGame(home: Team, away: Team) -> GameResult{
         let random = arc4random_uniform(101)
+        
+        for pl in home.players{
+            if arc4random_uniform(100) < 10{
+                home.setRedCard(player: pl, redCard: true)
+            }
+        }
+        for pl in away.players{
+            if arc4random_uniform(100) < 10{
+                away.setRedCard(player: pl, redCard: true)
+            }
+        }
+        
         if random < 33 {
             let rez = GameResult()
             rez.winningTeam = home
