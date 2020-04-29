@@ -14,6 +14,8 @@ class Player: NSObject, NSCoding{
     var stamina: Int = 0;
     var rating: Int = 0;
     var redCard: Bool = false;
+    var yellowCards: Int = 0;
+    var hasYellowInGame: Bool = false
     var teamRole: TeamRoles = TeamRoles.Reserved;
     
     override init() {
@@ -24,6 +26,7 @@ class Player: NSObject, NSCoding{
         self.stamina = Int(aDecoder.decodeInt32(forKey: "stamina"))
         self.rating = Int(aDecoder.decodeInt32(forKey: "rating"))
         self.redCard = Bool(aDecoder.decodeBool(forKey: "redCard"))
+        self.yellowCards = Int(aDecoder.decodeInt32(forKey: "yellowCards"))
         self.teamRole = TeamRoles(rawValue: aDecoder.decodeObject(forKey: "teamRole") as! String)!
     }
     
@@ -33,6 +36,22 @@ class Player: NSObject, NSCoding{
         aCoder.encode(stamina, forKey: "stamina")
         aCoder.encode(rating, forKey: "rating")
         aCoder.encode(redCard, forKey: "redCard")
+        aCoder.encode(yellowCards, forKey: "yellowCards")
         aCoder.encode(teamRole.rawValue, forKey: "teamRole")
     }
+    
+    func getRole() -> PlayerRole {
+        if role.lowercased() == "gk" { return PlayerRole.GK}
+        if role.lowercased() == "cb" { return PlayerRole.CB}
+        if role.lowercased() == "cm" { return PlayerRole.CM}
+        if role.lowercased() == "st" { return PlayerRole.ST}
+        return PlayerRole.CM
+    }
+}
+
+enum PlayerRole: String{
+    case GK = "GK"
+    case CB = "CB"
+    case CM = "CM"
+    case ST = "ST"
 }

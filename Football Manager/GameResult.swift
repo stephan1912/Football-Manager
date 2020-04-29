@@ -10,9 +10,9 @@ import Foundation
 
 class GameResult{
     
-    var winningTeam: Team = Team()
-    var losingTeam: Team = Team()
+    var homeTeam: Team = Team()
+    var awayTeam: Team = Team()
     var homeScore: Int = 0
     var awayScore: Int = 0
-    var events: [String] = []
+    var events: [GameEvent] = []
 }

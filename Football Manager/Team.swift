@@ -37,7 +37,7 @@ class Team: NSObject, NSCoding {
     func performCheck() -> GameError{
         for player in players{
             if player.teamRole != TeamRoles.Reserved{
-                if player.redCard{
+                if player.redCard || player.yellowCards >= 2{
                     return GameError.RedCard
                 }
                 if player.stamina < 70 {
@@ -52,12 +52,61 @@ class Team: NSObject, NSCoding {
         for i in 0...players.count-1{
             if players[i].name == player.name{
                 players[i].redCard = redCard
+                players[i].yellowCards = 0
+                players[i].hasYellowInGame = false
             }
         }
     }
     
+    func resetGameYellowcards(){
+        for i in 0...players.count - 1{
+                players[i].hasYellowInGame = false
+        }
+    }
+    
+    func setYellowCard(player: Player, card: Bool) -> Bool{
+        for i in 0...players.count-1{
+            if players[i].name == player.name{
+                if players[i].hasYellowInGame && card == true{ //pune rosu
+                    setRedCard(player: players[i], redCard: true)
+                    return true
+                }
+                players[i].hasYellowInGame = card
+                if card == true {
+                    players[i].yellowCards = players[i].yellowCards + 1
+                }
+                return false
+            }
+        }
+        return false
+    }
+    
+    func setRandomYellowCard(role: PlayerRole) -> Player{
+        let players = getPlayerByRoleInStartingXi(role: role)
+        let rand = Int(arc4random_uniform(UInt32(players.count)))
+        
+        _ = setYellowCard(player: players[rand], card: true)
+        return players[rand]
+    }
+    
+    func setRandomRedCard(role: PlayerRole) -> Player{
+        let players = getPlayerByRoleInStartingXi(role: role)
+        let rand = Int(arc4random_uniform(UInt32(players.count)))
+        
+        setRedCard(player: players[rand], redCard: true)
+        return players[rand]
+    }
+    
+    func getRandomPlayerInStartingXi(role: PlayerRole) -> Player{
+        let players = getPlayerByRoleInStartingXi(role: role)
+        
+        let rand = Int(arc4random_uniform(UInt32(players.count)))
+        
+        return players[rand]
+    }
+    
     func generateStarting11(){
-        let gks = getPlayerByRole(role: "gk").sorted(by: {$0.rating > $1.rating})
+        let gks = getPlayerByRole(role: PlayerRole.GK).sorted(by: {$0.rating > $1.rating})
         for i in (0...gks.count - 1){
             if i < 1{
                 setPlayerTeamRole(player: gks[i], teamRole: TeamRoles.StartingXI)
@@ -71,7 +120,7 @@ class Team: NSObject, NSCoding {
         }
 
         
-        let cbs = getPlayerByRole(role: "cb").sorted(by: {$0.rating > $1.rating})
+        let cbs = getPlayerByRole(role: PlayerRole.CB).sorted(by: {$0.rating > $1.rating})
         for i in (0...cbs.count - 1){
             if i < 4{
                 setPlayerTeamRole(player: cbs[i], teamRole: TeamRoles.StartingXI)
@@ -84,7 +133,7 @@ class Team: NSObject, NSCoding {
             }
         }
         
-        let cms = getPlayerByRole(role: "cm").sorted(by: {$0.rating > $1.rating})
+        let cms = getPlayerByRole(role: PlayerRole.CM).sorted(by: {$0.rating > $1.rating})
         for i in (0...cms.count - 1){
             if i < 4{
                 setPlayerTeamRole(player: cms[i], teamRole: TeamRoles.StartingXI)
@@ -96,7 +145,7 @@ class Team: NSObject, NSCoding {
                 setPlayerTeamRole(player: cms[i], teamRole: TeamRoles.Reserved)
             }
         }
-        let sts = getPlayerByRole(role: "st").sorted(by: {$0.rating > $1.rating})
+        let sts = getPlayerByRole(role: PlayerRole.ST).sorted(by: {$0.rating > $1.rating})
         for i in (0...sts.count - 1){
             if i < 2{
                 setPlayerTeamRole(player: sts[i], teamRole: TeamRoles.StartingXI)
@@ -153,16 +202,26 @@ class Team: NSObject, NSCoding {
         }*/
     }
     
-    func getPlayerByRole(role: String) -> [Player]{
+    func getPlayerByRole(role: PlayerRole) -> [Player]{
         var result: [Player] = []
         for player in players{
-            if player.role.lowercased() == role.lowercased() {
+            if player.getRole() == role {
                 result.append(player)
             }
         }
         return result
     }
     
+    
+    func getPlayerByRoleInStartingXi(role: PlayerRole) -> [Player]{
+        var result: [Player] = []
+        for player in players{
+            if player.getRole() == role  && player.teamRole == TeamRoles.StartingXI && player.redCard != true{
+                result.append(player)
+            }
+        }
+        return result
+    }
     func getPlayerByTeamRole(role: TeamRoles) -> [Player]{
         var result: [Player] = []
         for player in players{

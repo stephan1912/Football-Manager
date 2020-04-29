@@ -30,6 +30,7 @@ class ScoreBoard: NSObject, NSCoding{
             
             updateTeamStatsByName(name: round.Games[i].HomeTeam.name, gs: gr.homeScore, gr: gr.awayScore)
             updateTeamStatsByName(name: round.Games[i].AwayTeam.name, gs: gr.awayScore, gr: gr.homeScore)            //to add round events
+            
         }
         
         CurrentRound = CurrentRound + 1
