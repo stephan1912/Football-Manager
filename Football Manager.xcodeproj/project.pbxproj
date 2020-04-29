@@ -25,6 +25,7 @@
 		7190CAEE2455AF0F0025AD93 /* MyTeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190CAED2455AF0F0025AD93 /* MyTeamTableViewCell.swift */; };
 		7190CAF02455B7B60025AD93 /* GameSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190CAEF2455B7B60025AD93 /* GameSimulator.swift */; };
 		7197D29C24587507002084C1 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197D29B24587507002084C1 /* EventType.swift */; };
+		71B15E532459D1C500F99D1C /* MyProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B15E522459D1C500F99D1C /* MyProfilesViewController.swift */; };
 		71BAEB2524598EB500398D3B /* GameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEB2424598EB500398D3B /* GameResultViewController.swift */; };
 		71BD5BFE2444DCAD00489443 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BD5BFD2444DCAD00489443 /* Team.swift */; };
 		71CBF74B2445B3A50044AAB0 /* gameData.json in Resources */ = {isa = PBXBuildFile; fileRef = 71CBF74A2445B3A50044AAB0 /* gameData.json */; };
@@ -59,6 +60,7 @@
 		7190CAED2455AF0F0025AD93 /* MyTeamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTeamTableViewCell.swift; sourceTree = "<group>"; };
 		7190CAEF2455B7B60025AD93 /* GameSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSimulator.swift; sourceTree = "<group>"; };
 		7197D29B24587507002084C1 /* EventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		71B15E522459D1C500F99D1C /* MyProfilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfilesViewController.swift; sourceTree = "<group>"; };
 		71BAEB2424598EB500398D3B /* GameResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResultViewController.swift; sourceTree = "<group>"; };
 		71BD5BFD2444DCAD00489443 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		71CBF74A2445B3A50044AAB0 /* gameData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gameData.json; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 		715A116D243B33F6001AAC06 /* Football Manager */ = {
 			isa = PBXGroup;
 			children = (
+				71B15E512459D19F00F99D1C /* ProfileView */,
 				71BAEB2324598E7B00398D3B /* GameResultView */,
 				71283B862455C0DF00437ED1 /* TempFiles */,
 				71283B842455C0B700437ED1 /* RoundView */,
@@ -206,6 +209,14 @@
 				715A1182243B486D001AAC06 /* CreateViewController.swift */,
 			);
 			path = "Football Manager";
+			sourceTree = "<group>";
+		};
+		71B15E512459D19F00F99D1C /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				71B15E522459D1C500F99D1C /* MyProfilesViewController.swift */,
+			);
+			name = ProfileView;
 			sourceTree = "<group>";
 		};
 		71BAEB2324598E7B00398D3B /* GameResultView */ = {
@@ -309,6 +320,7 @@
 				7197D29C24587507002084C1 /* EventType.swift in Sources */,
 				71CBF7512445FC080044AAB0 /* AppUsers.swift in Sources */,
 				7190CAEC2455AEC30025AD93 /* MyTeamViewController.swift in Sources */,
+				71B15E532459D1C500F99D1C /* MyProfilesViewController.swift in Sources */,
 				7190CAEE2455AF0F0025AD93 /* MyTeamTableViewCell.swift in Sources */,
 				715A116F243B33F6001AAC06 /* AppDelegate.swift in Sources */,
 				71283B702455BF4F00437ED1 /* ScoreBoard.swift in Sources */,

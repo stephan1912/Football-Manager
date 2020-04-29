@@ -27,23 +27,32 @@ class ScoreBoard: NSObject, NSCoding{
         let round = Rounds[CurrentRound - 1]
         for i in (0...round.Games.count - 1){
             for pl in round.Games[i].HomeTeam.players{
-                    round.Games[i].HomeTeam.setRedCard(player: pl, redCard: false)
+                round.Games[i].HomeTeam.setRedCard(player: pl, redCard: false)
+                _ = round.Games[i].HomeTeam.setYellowCard(player: pl, card: false)
             }
             for pl in round.Games[i].AwayTeam.players{
                 round.Games[i].AwayTeam.setRedCard(player: pl, redCard: false)
+                _ = round.Games[i].AwayTeam.setYellowCard(player: pl, card: false)
             }
             let gr = GameSimulator.simulateGame(home: round.Games[i].HomeTeam, away: round.Games[i].AwayTeam)
             Rounds[CurrentRound - 1].Games[i].AwayGoals = gr.awayScore
             Rounds[CurrentRound - 1].Games[i].HomeGoals = gr.homeScore
             Rounds[CurrentRound - 1].Games[i].Events = gr.events
             updateTeamStatsByName(name: round.Games[i].HomeTeam.name, gs: gr.homeScore, gr: gr.awayScore)
-            updateTeamStatsByName(name: round.Games[i].AwayTeam.name, gs: gr.awayScore, gr: gr.homeScore)            //to add round events
+            updateTeamStatsByName(name: round.Games[i].AwayTeam.name, gs: gr.awayScore, gr: gr.homeScore)  
             
         }
         
         CurrentRound = CurrentRound + 1
     }
-    
+    func setTeamByName(team: Team){
+        for i in 0...TeamS.count{
+            if TeamS[i].TeamS.name == team.name{
+                TeamS[i].TeamS = team
+                return
+            }
+        }
+    }
     func getTeamByName(name: String) -> Team?{
         for ts in TeamS{
             if ts.TeamS.name == name{

@@ -59,6 +59,10 @@ class UserData: NSObject, NSCoding{
         return ScoreB.getTeamByName(name: ClubName)!
     }
     
+    func setTeam(team: Team){
+        ScoreB.setTeamByName(team: team)
+    }
+    
     func createScoreBoard(league: League){
         ScoreB.generateSeason(league: league)
     }

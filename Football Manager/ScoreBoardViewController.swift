@@ -16,6 +16,13 @@ class ScoreBoardViewController: UIViewController, UITableViewDelegate, UITableVi
         return true
     }
     
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let mainView = storyboard?.instantiateViewController(withIdentifier: "MyTeamViewController") as! MyTeamViewController;
+        mainView.isUserTeam = false
+        mainView.team = teamS[indexPath.row].TeamS
+        navigationController?.pushViewController(mainView, animated: false)
+    }
+    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return teamS.count
     }
@@ -38,6 +45,7 @@ class ScoreBoardViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        scoreBoard = AppUsers.getCurrentUser().ScoreB
         teamS = scoreBoard.TeamS.sorted(by: {$0.Points > $1.Points})
         
         ViewController.assignbackground(self.view!)

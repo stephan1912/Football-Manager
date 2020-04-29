@@ -9,6 +9,7 @@
 import UIKit
 class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerViewDataSource{
     
+    @IBOutlet var errorLbl: UILabel!
     var leagueArray: [League] = []
     @IBOutlet var emailField: UITextField!
     @IBOutlet var usernameField: UITextField!
@@ -17,7 +18,7 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
     @IBOutlet var clubField: UIPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        errorLbl.isHidden = true
         ligaField.delegate = self;
         ligaField.dataSource = self;
         
@@ -48,13 +49,9 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
         let club = leagueArray[(ligaField?.selectedRow(inComponent: 0))!].Teams[(clubField?.selectedRow(inComponent: 0))!].name
         
         if uname == "" || email == "" || psd == "" || league == "" || club == "" {
-            // return;
-        }
-        
-        let userString = UserDefaults.standard.object(forKey: uname!) as? String
-        
-        if userString != nil {
-            //return
+            errorLbl.text = "Trebuie sa completati toate campurile"
+            errorLbl.isHidden = false
+            return
         }
         
         let user = UserData()
@@ -69,7 +66,17 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
         if AppUsers.addUser(user: user){
             let profileView = storyboard?.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController;
             profileView.userData = user;
-            navigationController?.setViewControllers([profileView], animated: false);        }
+            navigationController?.setViewControllers([profileView], animated: false);
+            AppUsers.setCurrentUser(user: user)
+        }
+        else {
+            errorLbl.text = "Exista un profil cu acest username"
+            errorLbl.isHidden = false
+            emailField.text = ""
+            passwordField.text = ""
+            usernameField.text = ""
+            return
+        }
     }
     
     
@@ -109,7 +116,8 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
     
     @IBAction func backToLogin(_ sender: Any) {
         let mainView = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! ViewController;
-        navigationController?.setViewControllers([mainView], animated: false);    }
+        navigationController?.setViewControllers([mainView], animated: false);
+    }
     
     // Retrieves JSON from bundle
     func loadJSON(fileURL:String)-> [League] {

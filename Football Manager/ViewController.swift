@@ -10,15 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var errorLbl: UILabel!
     @IBOutlet var usernameField: UITextField!
     @IBOutlet var passwordField: UITextField!
     @IBOutlet var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        errorLbl.isHidden = true
         ViewController.assignbackground(self.view);
         //let x = CreateViewController.loadJSON(fileURL: "gameData")
-        AppUsers.clearData()
+        //AppUsers.clearData()
     }
 
     override var prefersStatusBarHidden: Bool{
@@ -38,14 +40,26 @@ class ViewController: UIViewController {
         }
         if let userData = AppUsers.validateUserCredentials(uname: username!, password: password!){
             let profileView = storyboard?.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController;
-            profileView.userData = userData;
+            
+            AppUsers.setCurrentUser(user: userData)
+            
+            //profileView.userData = userData;
             navigationController?.setViewControllers([profileView], animated: false);
         } else {
+            errorLbl.isHidden = false
+            errorLbl.text = "Profilul nu exista!"
             print("There is an issue")
+            usernameField.text = ""
+            passwordField.text = ""
         }
         
     }
+    @IBOutlet var goToVeziProfile: UIButton!
 
+    @IBAction func goToVeziProfilePage(_ sender: Any) {
+        let createView = storyboard?.instantiateViewController(withIdentifier: "MyProfilesViewController") as! MyProfilesViewController;
+        navigationController?.pushViewController(createView, animated: false);
+    }
     @IBAction func GoToCreate(_ sender: AnyObject) {
         let createView = storyboard?.instantiateViewController(withIdentifier: "CreateViewController") as! CreateViewController;
         navigationController?.pushViewController(createView, animated: false);

@@ -19,6 +19,9 @@ class ProfileViewController: UIViewController {
     var userData:UserData = UserData();
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        userData = AppUsers.getCurrentUser()
+        
         usernameLabel.text = "Bun venit " + userData.Username
         leagueLabel.text = "Campionat: " + userData.ClubLeague
         clubLabel.text = "Echipa: " + userData.ClubName
@@ -45,17 +48,17 @@ class ProfileViewController: UIViewController {
 
     @IBAction func goToCurrentRound(_ sender: Any) {
         let mainView = storyboard?.instantiateViewController(withIdentifier: "CurrentRoundViewController") as! CurrentRoundViewController;
-        mainView.scoreBoard = userData.ScoreB
+        //mainView.scoreBoard = userData.ScoreB
         navigationController?.pushViewController(mainView, animated: false)    }
     @IBAction func goToScoreBoard(_ sender: Any) {
         let mainView = storyboard?.instantiateViewController(withIdentifier: "ScoreBoardViewController") as! ScoreBoardViewController;
-        mainView.scoreBoard = userData.ScoreB
+        //mainView.scoreBoard = userData.ScoreB
         navigationController?.pushViewController(mainView, animated: false)
         //self.present(mainView, animated: false, completion: nil);
     }
     @IBAction func goToMyTeam(_ sender: Any) {
         let mainView = storyboard?.instantiateViewController(withIdentifier: "MyTeamViewController") as! MyTeamViewController;
-        mainView.team = userData.ScoreB.getTeamByName(name: userData.ClubName)!
+        //mainView.team = userData.ScoreB.getTeamByName(name: userData.ClubName)!
         navigationController?.pushViewController(mainView, animated: false)
     }
     @IBAction func goToSimulateRound(_ sender: Any) {
@@ -63,11 +66,9 @@ class ProfileViewController: UIViewController {
         if check == GameError.NoError{
             
             let mainView = storyboard?.instantiateViewController(withIdentifier: "GameResultViewController") as! GameResultViewController;
-            mainView.userData = userData
+            //mainView.userData = userData
             navigationController?.pushViewController(mainView, animated: false)
             
-            currentRoundLabel.text = "Etapa: " + String(userData.ScoreB.CurrentRound)
-            nextOponentLabel.text = "Urmatorul meci: " + (userData.ScoreB.getNextOpponent(teamName: userData.ClubName)?.name)!
         }
         else{
             let alert = UIAlertController(title: "Oops", message: check.rawValue, preferredStyle: UIAlertControllerStyle.alert)
@@ -75,7 +76,13 @@ class ProfileViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "Inchide", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
+        userData = AppUsers.getCurrentUser()
+        currentRoundLabel.text = "Etapa: " + String(userData.ScoreB.CurrentRound)
+        nextOponentLabel.text = "Urmatorul meci: " + (userData.ScoreB.getNextOpponent(teamName: userData.ClubName)?.name)!
     }
 
 }

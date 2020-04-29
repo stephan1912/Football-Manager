@@ -47,11 +47,20 @@ class CurrentRoundViewController: UIViewController, UITableViewDelegate, UITable
         return cell
     }
     
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let mainView = storyboard?.instantiateViewController(withIdentifier: "GameResultViewController") as! GameResultViewController;
+        mainView.gameResult = scoreBoard.Rounds[etapaCurenta - 1].Games[indexPath.row]
+        mainView.isSimulation = false
+        navigationController?.pushViewController(mainView, animated: false)
+
+    }
+    
     @IBAction func closeView(_ sender: Any) {
         navigationController?.popViewController(animated: false)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        scoreBoard = AppUsers.getCurrentUser().ScoreB
         tableView.backgroundColor = UIColor.clear
         ViewController.assignbackground(self.view!)
         etapaCurenta = scoreBoard.CurrentRound;

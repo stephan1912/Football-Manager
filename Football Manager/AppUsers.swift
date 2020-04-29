@@ -9,9 +9,54 @@
 import Foundation
 class AppUsers{
     
-    static var Users: [UserData] = []
-    static var loaded: Bool = false
-    static let storageKey: String = "_appUsers";
+    private static var CurrentUser = UserData()
+    
+    private static var Users: [UserData] = []
+    private static var loaded: Bool = false
+    private static let storageKey: String = "_appUsers";
+    
+    static func getAllUsers() -> [UserData]{
+        if loaded == false{
+            loadData()
+        }
+        return Users
+    }
+    
+    static func saveCurrentUserData(){
+        if loaded == false {
+            loadData()
+        }
+        for i in 0...Users.count{
+            if Users[i].Username == CurrentUser.Username{
+                Users[i] = CurrentUser
+                
+                let encodedData = NSKeyedArchiver.archivedData(withRootObject: Users)
+                UserDefaults.standard.set(encodedData, forKey: storageKey)
+                return
+            }
+        }
+    }
+    
+    static func getCurrentUser() -> UserData{
+        return AppUsers.CurrentUser
+    }
+    
+    static func setCurrentUser(user: UserData){
+        CurrentUser = user
+    }
+    
+    static func removeUser(user: UserData){
+        for i in 0...Users.count-1{
+            if Users[i].Username == user.Username{
+                Users.remove(at: i)
+                break            }
+        }
+        
+        
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: Users)
+        UserDefaults.standard.set(encodedData, forKey: storageKey)
+        loaded = false
+    }
     
     static func clearData(){
         UserDefaults.standard.removeObject(forKey: storageKey)

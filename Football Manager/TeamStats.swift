@@ -26,7 +26,12 @@ class TeamStats: NSObject, NSCoding{
             Points = Points + 3
         }
         for i in (0...TeamS.players.count - 1){
-            TeamS.players[i].stamina  = TeamS.players[i].stamina - (Int(arc4random_uniform(8)) + 2)
+            if TeamS.players[i].teamRole == TeamRoles.StartingXI{
+                TeamS.players[i].stamina  = TeamS.players[i].stamina - (Int(arc4random_uniform(8)) + 2)
+            }
+            else if TeamS.players[i].teamRole == TeamRoles.Substitue{
+                TeamS.players[i].stamina  = TeamS.players[i].stamina - (Int(arc4random_uniform(2)) + 2)
+            }
         }
     }
     
@@ -45,6 +50,6 @@ class TeamStats: NSObject, NSCoding{
         aCoder.encode(GoalsScored, forKey: "goalsScored")
         aCoder.encode(GoalsRecv, forKey: "goalsRecv")
         aCoder.encode(GamesPlayed, forKey: "gamesPlayed")
-        aCoder.encode(Points, forKey: "Points")
+        aCoder.encode(Points, forKey: "points")
     }
 }

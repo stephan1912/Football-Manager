@@ -46,16 +46,16 @@ class GameSimulator{
     }
     
     static func simulateCard(otherTeam: Team, i: Int, playerRole: PlayerRole) -> GameEvent? {
-        return nil
+        //return nil
         //sanse de 4% pt echipa care nu are mingea sa faulteze si sa obitna rosu, in acest caz se trece peste restul verificarilor
         let redCardRand = arc4random_uniform(100)
-        if redCardRand < 4{
+        if redCardRand < 3{
             let pl = otherTeam.setRandomRedCard(role: playerRole)
             let evName = pl.name + "(" + otherTeam.name + ")" + EventType.CatonasR.rawValue
             return GameEvent(event: evName, min: i)
         }
         //sanse de 8% pt yellowCard
-        if redCardRand < 8{
+        if redCardRand < 6{
             let pl = otherTeam.setRandomYellowCard(role: playerRole)
             if pl.redCard{
                 //red card

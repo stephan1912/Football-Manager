@@ -38,6 +38,10 @@ class Team: NSObject, NSCoding {
         for player in players{
             if player.teamRole != TeamRoles.Reserved{
                 if player.redCard || player.yellowCards >= 2{
+                    if player.yellowCards >= 2{
+                        player.redCard = true
+                        player.yellowCards = 0
+                    }
                     return GameError.RedCard
                 }
                 if player.stamina < 70 {
@@ -46,6 +50,27 @@ class Team: NSObject, NSCoding {
             }
         }
         return GameError.NoError
+    }
+    
+    func getSomeRandomPlayersInXi(nr: Int) -> [Player]{
+        var result: [Player] = []
+        var playersInXi = getPlayerByTeamRole(role: TeamRoles.StartingXI)
+        while result.count < nr {
+            let rnd = Int(arc4random_uniform(UInt32(playersInXi.count)))
+            if (playersInXi[rnd].redCard == false && playersInXi[rnd].getRole() != PlayerRole.GK){
+                result.append(playersInXi[rnd])
+                playersInXi.remove(at: rnd)
+            }
+            
+        }
+        return result
+    }
+    
+    func regenStamina(){
+        for i in 0...players.count-1
+        {
+            players[i].stamina = 100
+        }
     }
     
     func setRedCard(player: Player, redCard: Bool){
@@ -98,7 +123,11 @@ class Team: NSObject, NSCoding {
     }
     
     func getRandomPlayerInStartingXi(role: PlayerRole) -> Player{
-        let players = getPlayerByRoleInStartingXi(role: role)
+        var players = getPlayerByRoleInStartingXi(role: role)
+        
+        if players.count == 0 {
+            players = getSomeRandomPlayersInXi(nr: 3)
+        }
         
         let rand = Int(arc4random_uniform(UInt32(players.count)))
         
@@ -221,7 +250,7 @@ class Team: NSObject, NSCoding {
             }
         }
         if result.count == 0{
-            print("fuck this shiet")
+            result = getSomeRandomPlayersInXi(nr: 3)
         }
         return result
     }
@@ -237,7 +266,7 @@ class Team: NSObject, NSCoding {
 }
 
 enum GameError: String{
-    case RedCard = "Ai jucatori in formatia de start care au cartonas rosu!"
+    case RedCard = "Ai jucatori in formatia de start care sunt suspendati!"
     case Lowstam = "Ai jucatori in formatia de start care au stamina < 70!"
     case NoError = ""
 }

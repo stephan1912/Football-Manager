@@ -17,6 +17,7 @@ class GameResultViewController: UIViewController, UITableViewDataSource
     @IBOutlet var awayTeam: UILabel!
     
     var userData: UserData = UserData()
+    var isSimulation: Bool = true
     var gameResult: Game = Game()
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,12 +35,19 @@ class GameResultViewController: UIViewController, UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         ViewController.assignbackground(self.view)
-        userData.ScoreB.simulateRound()
-        gameResult = userData.ScoreB.getGameResultInRound(round: userData.ScoreB.CurrentRound - 2, team: userData.getTeam())!
+        if isSimulation{
+            userData = AppUsers.getCurrentUser()
+            userData.ScoreB.simulateRound()
+            gameResult = userData.ScoreB.getGameResultInRound(round: userData.ScoreB.CurrentRound - 2, team: userData.getTeam())!
+            
+            AppUsers.setCurrentUser(user: userData)
+            AppUsers.saveCurrentUserData()
+        }
         homeTeam.text = gameResult.HomeTeam.name
         awayTeam.text = gameResult.AwayTeam.name
         homeScore.text = String(gameResult.HomeGoals)
         awayScore.text = String(gameResult.AwayGoals)
+        
         // Do any additional setup after loading the view.
     }
 

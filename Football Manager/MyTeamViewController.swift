@@ -10,6 +10,8 @@ import UIKit
 
 class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var isUserTeam: Bool = true
+    
     var team: Team = Team()
     
     @IBOutlet var titleLabel: UILabel!
@@ -17,10 +19,12 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var substitutePlayers: [Player] = []
     var reservedPlayers: [Player] = []
     
+    @IBOutlet var lblJucator: UILabel!
     @IBOutlet var selectedLabel: UILabel!
     var selectedPlayer: Player = Player()
     var subStep: Int = 0
     
+    @IBOutlet var regenBtn: UIButton!
     @IBOutlet var playersTable: UITableView!
     @IBOutlet var rezBtn: UIButton!
     @IBOutlet var subsBtn: UIButton!
@@ -32,11 +36,24 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return true
     }
     
+    @IBAction func regenStamina(_ sender: Any) {
+        team.regenStamina()
+        AppUsers.getCurrentUser().setTeam(team: team)
+        AppUsers.setCurrentUser(user: AppUsers.getCurrentUser())
+        AppUsers.saveCurrentUserData()
+        playersTable.reloadData()
+    }
+    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return shownPlayers.count
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if isUserTeam == false{
+            return
+        }
+        
         if subStep == 0{
             selectedPlayer = shownPlayers[indexPath.row]
             selectedLabel.text = selectedPlayer.name
@@ -45,6 +62,9 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
         else{
             let player2 = shownPlayers[indexPath.row]
             team.changePlayers(player1: selectedPlayer, player2: player2)
+            AppUsers.getCurrentUser().setTeam(team: team)
+            AppUsers.setCurrentUser(user: AppUsers.getCurrentUser())
+            AppUsers.saveCurrentUserData()
             subStep = 0
             selectedLabel.text = ""
             initPlayers()
@@ -55,8 +75,19 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell") as! MyTeamTableViewCell
-        
-        cell.redCard?.isHidden = shownPlayers[indexPath.row].redCard == false
+        cell.redCard?.isHidden = false
+        if shownPlayers[indexPath.row].redCard{
+            cell.redCard?.backgroundColor = UIColor.red
+        }
+        else if shownPlayers[indexPath.row].yellowCards > 0 {
+            cell.redCard?.backgroundColor = UIColor.yellow
+        }
+        else{
+            cell.redCard?.isHidden = true
+        }
+        if isUserTeam == false{
+            cell.redCard?.isHidden = true
+        }
         cell.pName?.text = shownPlayers[indexPath.row].name
         cell.pRole?.text = shownPlayers[indexPath.row].role
         cell.pOvr?.text = String(shownPlayers[indexPath.row].rating)
@@ -122,7 +153,16 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if isUserTeam{
+            team = AppUsers.getCurrentUser().getTeam()
+        }
+        else{
+            regenBtn.isHidden = true
+            lblJucator.isHidden = true
+            selectedLabel.isHidden = true
+        }
         titleLabel?.text = "Primul 11"
+        selectedLabel?.text = ""
         initPlayers()
         shownPlayers = startingXiPlayers
         
