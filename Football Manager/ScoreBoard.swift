@@ -14,6 +14,14 @@ class ScoreBoard: NSObject, NSCoding{
     var CurrentRound: Int = 0
     var Rounds: [Round] = []
     
+    func getGameResultInRound(round: Int, team: Team) -> Game?{
+        for g in Rounds[round].Games{
+            if g.HomeTeam.name == team.name || g.AwayTeam.name == team.name{
+                return g
+            }
+        }
+        return nil
+    }
     
     func simulateRound(){
         let round = Rounds[CurrentRound - 1]

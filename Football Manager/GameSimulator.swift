@@ -21,7 +21,7 @@ class GameSimulator{
     static func getOvrWithStamina(players: [Player]) -> Int{
         var ovr = 0
         for p in players {
-            ovr = ovr + (p.rating * p.stamina) / 100
+            ovr = ovr + Int(Double(p.rating * p.stamina) / 100.0)
         }
         
         ovr = ovr / players.count
@@ -29,8 +29,8 @@ class GameSimulator{
     }
     
     static func getRandomResult(a: Int, b: Int) -> Int{
-        let aPer = (a / (a + b)) * 100
-        let bPer = (b / (a + b)) * 100
+        let aPer = Int((Double(a) / Double((a + b))) * 100.0)
+        let bPer = Int((Double(b) / Double((a + b))) * 100.0)
         
         let rn = Int(arc4random_uniform(UInt32(aPer + bPer)))
         

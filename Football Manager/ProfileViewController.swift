@@ -62,6 +62,11 @@ class ProfileViewController: UIViewController {
         let check = userData.getTeam().performCheck()
         if check == GameError.NoError{
             userData.ScoreB.simulateRound()
+            
+            let mainView = storyboard?.instantiateViewController(withIdentifier: "GameResultViewController") as! GameResultViewController;
+            mainView.userData = userData
+            navigationController?.pushViewController(mainView, animated: false)
+            
             currentRoundLabel.text = "Etapa: " + String(userData.ScoreB.CurrentRound)
             nextOponentLabel.text = "Urmatorul meci: " + (userData.ScoreB.getNextOpponent(teamName: userData.ClubName)?.name)!
         }

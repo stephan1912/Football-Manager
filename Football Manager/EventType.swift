@@ -8,12 +8,26 @@
 
 import Foundation
 
-class GameEvent{
+class GameEvent: NSObject, NSCoding{
     var Event: String = ""
     var Min: Int = 0
     init(event: String, min: Int){
         self.Min = min
         self.Event = event
+    }
+    
+    func getEvent() -> String{
+        return String(Min) + ". " + Event
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        self.Min = Int(aDecoder.decodeInt32(forKey: "min"))
+        self.Event = aDecoder.decodeObject(forKey: "event") as! String
+    }
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(Min, forKey: "min")
+        aCoder.encode(Event, forKey: "event")
     }
 }
 
