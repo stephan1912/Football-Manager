@@ -23,7 +23,9 @@ class GameSimulator{
         for p in players {
             ovr = ovr + Int(Double(p.rating * p.stamina) / 100.0)
         }
-        
+        if ovr == 0 {
+            return Int(arc4random_uniform(20) + 70)
+        }
         ovr = ovr / players.count
         return ovr
     }
@@ -44,6 +46,7 @@ class GameSimulator{
     }
     
     static func simulateCard(otherTeam: Team, i: Int, playerRole: PlayerRole) -> GameEvent? {
+        return nil
         //sanse de 4% pt echipa care nu are mingea sa faulteze si sa obitna rosu, in acest caz se trece peste restul verificarilor
         let redCardRand = arc4random_uniform(100)
         if redCardRand < 4{

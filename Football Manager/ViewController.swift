@@ -60,6 +60,12 @@ class ViewController: UIViewController {
         imageView.clipsToBounds = true
         imageView.image = background
         imageView.center = view.center
+        
+        let tintView = UIView()
+        tintView.backgroundColor = UIColor(white: 0, alpha: 0.5) //change to your liking
+        tintView.frame = CGRect(x: 0, y: 0, width: imageView.frame.width, height: imageView.frame.height)
+        imageView.addSubview(tintView)
+        
         view.addSubview(imageView)
         view.sendSubview(toBack: imageView)
     }}

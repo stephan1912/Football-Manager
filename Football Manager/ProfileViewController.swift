@@ -59,9 +59,8 @@ class ProfileViewController: UIViewController {
         navigationController?.pushViewController(mainView, animated: false)
     }
     @IBAction func goToSimulateRound(_ sender: Any) {
-        let check = userData.getTeam().performCheck()
+        let check  = userData.getTeam().performCheck()
         if check == GameError.NoError{
-            userData.ScoreB.simulateRound()
             
             let mainView = storyboard?.instantiateViewController(withIdentifier: "GameResultViewController") as! GameResultViewController;
             mainView.userData = userData

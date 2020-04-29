@@ -35,7 +35,7 @@ class ScoreBoard: NSObject, NSCoding{
             let gr = GameSimulator.simulateGame(home: round.Games[i].HomeTeam, away: round.Games[i].AwayTeam)
             Rounds[CurrentRound - 1].Games[i].AwayGoals = gr.awayScore
             Rounds[CurrentRound - 1].Games[i].HomeGoals = gr.homeScore
-            
+            Rounds[CurrentRound - 1].Games[i].Events = gr.events
             updateTeamStatsByName(name: round.Games[i].HomeTeam.name, gs: gr.homeScore, gr: gr.awayScore)
             updateTeamStatsByName(name: round.Games[i].AwayTeam.name, gs: gr.awayScore, gr: gr.homeScore)            //to add round events
             

@@ -220,6 +220,9 @@ class Team: NSObject, NSCoding {
                 result.append(player)
             }
         }
+        if result.count == 0{
+            print("fuck this shiet")
+        }
         return result
     }
     func getPlayerByTeamRole(role: TeamRoles) -> [Player]{

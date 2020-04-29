@@ -25,6 +25,7 @@ class GameResultViewController: UIViewController, UITableViewDataSource
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell")!
+        cell.textLabel?.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         cell.textLabel?.text = gameResult.Events[indexPath.row].getEvent()
         
         return cell
@@ -32,13 +33,21 @@ class GameResultViewController: UIViewController, UITableViewDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ViewController.assignbackground(self.view)
         userData.ScoreB.simulateRound()
         gameResult = userData.ScoreB.getGameResultInRound(round: userData.ScoreB.CurrentRound - 2, team: userData.getTeam())!
+        homeTeam.text = gameResult.HomeTeam.name
+        awayTeam.text = gameResult.AwayTeam.name
+        homeScore.text = String(gameResult.HomeGoals)
+        awayScore.text = String(gameResult.AwayGoals)
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        
+        
         // Dispose of any resources that can be recreated.
     }
     
