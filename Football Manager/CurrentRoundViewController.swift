@@ -52,6 +52,7 @@ class CurrentRoundViewController: UIViewController, UITableViewDelegate, UITable
         mainView.gameResult = scoreBoard.Rounds[etapaCurenta - 1].Games[indexPath.row]
         mainView.isSimulation = false
         navigationController?.pushViewController(mainView, animated: false)
+        tableView.deselectRow(at: indexPath, animated: false)
 
     }
     

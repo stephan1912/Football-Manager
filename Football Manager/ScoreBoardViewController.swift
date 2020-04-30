@@ -21,6 +21,7 @@ class ScoreBoardViewController: UIViewController, UITableViewDelegate, UITableVi
         mainView.isUserTeam = false
         mainView.team = teamS[indexPath.row].TeamS
         navigationController?.pushViewController(mainView, animated: false)
+        tableView.deselectRow(at: indexPath, animated: false)
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

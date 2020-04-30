@@ -85,7 +85,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71283B712455BF5B00437ED1 /* Classes */ = {
+		71283B712455BF5B00437ED1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				71283B812455C08100437ED1 /* UserManagement */,
@@ -93,7 +93,7 @@
 				71283B792455C00C00437ED1 /* GameObjects */,
 				71283B782455BFDB00437ED1 /* UserData */,
 			);
-			name = Classes;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		71283B782455BFDB00437ED1 /* UserData */ = {
@@ -192,21 +192,14 @@
 		715A116D243B33F6001AAC06 /* Football Manager */ = {
 			isa = PBXGroup;
 			children = (
-				71B15E512459D19F00F99D1C /* ProfileView */,
-				71BAEB2324598E7B00398D3B /* GameResultView */,
+				71D225E5245ABB74006638C6 /* Controllers */,
 				71283B862455C0DF00437ED1 /* TempFiles */,
-				71283B842455C0B700437ED1 /* RoundView */,
-				71283B832455C0AA00437ED1 /* MyTeamView */,
-				71283B822455C09700437ED1 /* ScoreBoardView */,
-				71283B712455BF5B00437ED1 /* Classes */,
+				71283B712455BF5B00437ED1 /* Models */,
 				715A116E243B33F6001AAC06 /* AppDelegate.swift */,
-				715A1170243B33F6001AAC06 /* ViewController.swift */,
 				715A1172243B33F6001AAC06 /* Main.storyboard */,
 				715A1175243B33F6001AAC06 /* Assets.xcassets */,
 				715A1177243B33F6001AAC06 /* LaunchScreen.storyboard */,
 				715A117A243B33F6001AAC06 /* Info.plist */,
-				715A1180243B3F57001AAC06 /* ProfileViewController.swift */,
-				715A1182243B486D001AAC06 /* CreateViewController.swift */,
 			);
 			path = "Football Manager";
 			sourceTree = "<group>";
@@ -225,6 +218,21 @@
 				71BAEB2424598EB500398D3B /* GameResultViewController.swift */,
 			);
 			name = GameResultView;
+			sourceTree = "<group>";
+		};
+		71D225E5245ABB74006638C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				715A1180243B3F57001AAC06 /* ProfileViewController.swift */,
+				715A1170243B33F6001AAC06 /* ViewController.swift */,
+				715A1182243B486D001AAC06 /* CreateViewController.swift */,
+				71283B822455C09700437ED1 /* ScoreBoardView */,
+				71283B832455C0AA00437ED1 /* MyTeamView */,
+				71283B842455C0B700437ED1 /* RoundView */,
+				71BAEB2324598E7B00398D3B /* GameResultView */,
+				71B15E512459D19F00F99D1C /* ProfileView */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
