@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         
         var imageView : UIImageView!
         imageView = UIImageView(frame: view.bounds)
-        imageView.contentMode =  UIViewContentMode.scaleAspectFill
+        imageView.contentMode =  UIView.ContentMode.scaleAspectFill
         imageView.clipsToBounds = true
         imageView.image = background
         imageView.center = view.center
@@ -81,6 +81,6 @@ class ViewController: UIViewController {
         imageView.addSubview(tintView)
         
         view.addSubview(imageView)
-        view.sendSubview(toBack: imageView)
+        view.sendSubviewToBack(imageView)
     }}
 

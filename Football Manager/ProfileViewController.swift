@@ -71,9 +71,9 @@ class ProfileViewController: UIViewController {
             
         }
         else{
-            let alert = UIAlertController(title: "Oops", message: check.rawValue, preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Vezi Echipa", style: UIAlertActionStyle.default, handler: goToMyTeam))
-            alert.addAction(UIAlertAction(title: "Inchide", style: UIAlertActionStyle.default, handler: nil))
+            let alert = UIAlertController(title: "Oops", message: check.rawValue, preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Vezi Echipa", style: UIAlertAction.Style.default, handler: goToMyTeam))
+            alert.addAction(UIAlertAction(title: "Inchide", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
     }

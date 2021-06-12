@@ -27,10 +27,10 @@ class MyProfilesViewController: UIViewController, UITableViewDataSource, UITable
     
     var selectedIndex: Int = 0
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let alert = UIAlertController(title: "Football Manager", message: "Esti sigur ca vrei sa stergi profilul?", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "Football Manager", message: "Esti sigur ca vrei sa stergi profilul?", preferredStyle: UIAlertController.Style.alert)
         selectedIndex = indexPath.row
-        alert.addAction(UIAlertAction(title: "DA", style: UIAlertActionStyle.default, handler: removeUsers))
-        alert.addAction(UIAlertAction(title: "NU", style: UIAlertActionStyle.default, handler: nil))
+        alert.addAction(UIAlertAction(title: "DA", style: UIAlertAction.Style.default, handler: removeUsers))
+        alert.addAction(UIAlertAction(title: "NU", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
     
