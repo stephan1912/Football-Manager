@@ -37,6 +37,10 @@
 		71CBF757244621260044AAB0 /* CurrentRoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CBF756244621260044AAB0 /* CurrentRoundViewController.swift */; };
 		71CBF7592446221A0044AAB0 /* RoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CBF7582446221A0044AAB0 /* RoundTableViewCell.swift */; };
 		71F470C42446F51E008D8A0D /* leagues.json in Resources */ = {isa = PBXBuildFile; fileRef = 71F470C32446F51E008D8A0D /* leagues.json */; };
+		B45615782674E56C00966C0F /* FootballManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B45615762674E56C00966C0F /* FootballManager.xcdatamodeld */; };
+		B456157F2674E7B200966C0F /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456157D2674E7B200966C0F /* User+CoreDataClass.swift */; };
+		B45615802674E7B200966C0F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456157E2674E7B200966C0F /* User+CoreDataProperties.swift */; };
+		B45615822674EA3800966C0F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45615812674EA3800966C0F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		71CBF756244621260044AAB0 /* CurrentRoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentRoundViewController.swift; sourceTree = "<group>"; };
 		71CBF7582446221A0044AAB0 /* RoundTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTableViewCell.swift; sourceTree = "<group>"; };
 		71F470C32446F51E008D8A0D /* leagues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leagues.json; sourceTree = "<group>"; };
+		B45615772674E56C00966C0F /* FootballManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FootballManager.xcdatamodel; sourceTree = "<group>"; };
+		B456157D2674E7B200966C0F /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "Football Manager/Data/User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B456157E2674E7B200966C0F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "Football Manager/Data/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B45615812674EA3800966C0F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 				71283B722455BF9500437ED1 /* TeamStats.swift */,
 				71283B742455BFB300437ED1 /* Round.swift */,
 				71283B762455BFC800437ED1 /* Game.swift */,
+				B45615812674EA3800966C0F /* User.swift */,
 			);
 			name = UserData;
 			sourceTree = "<group>";
@@ -176,6 +185,8 @@
 		715A1162243B33F6001AAC06 = {
 			isa = PBXGroup;
 			children = (
+				B456157D2674E7B200966C0F /* User+CoreDataClass.swift */,
+				B456157E2674E7B200966C0F /* User+CoreDataProperties.swift */,
 				715A116D243B33F6001AAC06 /* Football Manager */,
 				715A116C243B33F6001AAC06 /* Products */,
 			);
@@ -200,6 +211,7 @@
 				715A1175243B33F6001AAC06 /* Assets.xcassets */,
 				715A1177243B33F6001AAC06 /* LaunchScreen.storyboard */,
 				715A117A243B33F6001AAC06 /* Info.plist */,
+				B45615762674E56C00966C0F /* FootballManager.xcdatamodeld */,
 			);
 			path = "Football Manager";
 			sourceTree = "<group>";
@@ -310,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45615782674E56C00966C0F /* FootballManager.xcdatamodeld in Sources */,
 				71283B732455BF9500437ED1 /* TeamStats.swift in Sources */,
 				71283B772455BFC800437ED1 /* Game.swift in Sources */,
 				71CBF74D2445BAA20044AAB0 /* UserData.swift in Sources */,
@@ -325,8 +338,11 @@
 				71BD5BFE2444DCAD00489443 /* Team.swift in Sources */,
 				71BAEB2524598EB500398D3B /* GameResultViewController.swift in Sources */,
 				71283B752455BFB300437ED1 /* Round.swift in Sources */,
+				B456157F2674E7B200966C0F /* User+CoreDataClass.swift in Sources */,
+				B45615802674E7B200966C0F /* User+CoreDataProperties.swift in Sources */,
 				7197D29C24587507002084C1 /* EventType.swift in Sources */,
 				71CBF7512445FC080044AAB0 /* AppUsers.swift in Sources */,
+				B45615822674EA3800966C0F /* User.swift in Sources */,
 				7190CAEC2455AEC30025AD93 /* MyTeamViewController.swift in Sources */,
 				71B15E532459D1C500F99D1C /* MyProfilesViewController.swift in Sources */,
 				7190CAEE2455AF0F0025AD93 /* MyTeamTableViewCell.swift in Sources */,
@@ -474,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Football Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefancode.footballmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Football Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefancode.footballmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +535,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B45615762674E56C00966C0F /* FootballManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B45615772674E56C00966C0F /* FootballManager.xcdatamodel */,
+			);
+			currentVersion = B45615772674E56C00966C0F /* FootballManager.xcdatamodel */;
+			path = FootballManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 715A1163243B33F6001AAC06 /* Project object */;
 }

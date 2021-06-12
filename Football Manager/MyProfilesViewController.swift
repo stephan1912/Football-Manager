@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CoreData
 class MyProfilesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
     @IBOutlet var userTable: UITableView!
@@ -35,8 +35,10 @@ class MyProfilesViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     @IBAction func removeUsers(_ sender: Any){
-        AppUsers.removeUser(user: userList[selectedIndex])
-        userList = AppUsers.getAllUsers()
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        AppUsers.removeUser(user: userList[selectedIndex], context: context)
+        
+        userList = AppUsers.getAllUsers(context: context)
         userTable.reloadData()
     }
     
@@ -44,7 +46,8 @@ class MyProfilesViewController: UIViewController, UITableViewDataSource, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         ViewController.assignbackground(self.view)
-        userList = AppUsers.getAllUsers()
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        userList = AppUsers.getAllUsers(context: context)
         // Do any additional setup after loading the view.
     }
 

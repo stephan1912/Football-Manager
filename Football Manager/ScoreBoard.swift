@@ -122,7 +122,7 @@ class ScoreBoard: NSObject, NSCoding{
         
     func generateSeason(league: League){
         SeasonNumber = SeasonNumber + 1
-        Season = league.name + " - Seasone " + String(SeasonNumber)
+        Season = league.name + " - Season " + String(SeasonNumber)
         CurrentRound = 1
         var matrix1 = [[Int]]()
         matrix1.append([Int]())

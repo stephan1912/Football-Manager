@@ -41,7 +41,8 @@ class GameResultViewController: UIViewController, UITableViewDataSource
             gameResult = userData.ScoreB.getGameResultInRound(round: userData.ScoreB.CurrentRound - 2, team: userData.getTeam())!
             
             AppUsers.setCurrentUser(user: userData)
-            AppUsers.saveCurrentUserData()
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            AppUsers.saveCurrentUserData(context: context)
         }
         homeTeam.text = gameResult.HomeTeam.name
         awayTeam.text = gameResult.AwayTeam.name

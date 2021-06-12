@@ -38,7 +38,8 @@ class ViewController: UIViewController {
         if(username == "" || password == "") {
             return;
         }
-        if let userData = AppUsers.validateUserCredentials(uname: username!, password: password!){
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        if let userData = AppUsers.validateUserCredentials(uname: username!, password: password!, context: context){
             let profileView = storyboard?.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController;
             
             AppUsers.setCurrentUser(user: userData)

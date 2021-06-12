@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import CoreData
 class AppUsers{
     
     private static var CurrentUser = UserData()
@@ -15,23 +17,41 @@ class AppUsers{
     private static var loaded: Bool = false
     private static let storageKey: String = "_appUsers";
     
-    static func getAllUsers() -> [UserData]{
+    static func getAllUsers(context: NSManagedObjectContext) -> [UserData]{
         if loaded == false{
-            loadData()
+            loadData(context: context)
         }
         return Users
     }
     
-    static func saveCurrentUserData(){
+    static func saveCurrentUserData(context: NSManagedObjectContext){
         if loaded == false {
-            loadData()
+            loadData(context: context)
         }
         for i in 0...Users.count{
             if Users[i].Username == CurrentUser.Username{
                 Users[i] = CurrentUser
-                
+                /*
                 let encodedData = NSKeyedArchiver.archivedData(withRootObject: Users)
                 UserDefaults.standard.set(encodedData, forKey: storageKey)
+                */
+                do{
+                    var fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+                    fetchRequest.predicate = NSPredicate(format: "username = %@", CurrentUser.Username)
+
+                    if let fetchResults = try context.fetch(fetchRequest) as? [NSManagedObject] {
+                        if fetchResults.count != 0{
+
+                            var managedObject = fetchResults[0]
+                            managedObject.setValue(try NSKeyedArchiver.archivedData(withRootObject: CurrentUser.ScoreB, requiringSecureCoding: false) as! String, forKey: "scoreboard")
+
+                            try context.save()
+                        }
+                    }
+                }
+                catch{
+                    print("Error on save")
+                }
                 return
             }
         }
@@ -45,16 +65,33 @@ class AppUsers{
         CurrentUser = user
     }
     
-    static func removeUser(user: UserData){
+    static func removeUser(user: UserData, context: NSManagedObjectContext){
         for i in 0...Users.count-1{
             if Users[i].Username == user.Username{
-                Users.remove(at: i)
-                break            }
+                do{
+                    var fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+                    fetchRequest.predicate = NSPredicate(format: "username = %@", CurrentUser.Username)
+
+                    if let fetchResults = try context.fetch(fetchRequest) as? [NSManagedObject] {
+                        if fetchResults.count != 0{
+                            context.delete(fetchResults[0])
+                        }
+                    }
+                     Users.remove(at: i)
+                    
+                }
+                catch{
+                    print("Error on save")
+                }
+                break
+                
+            }
         }
         
-        
+        /*
         let encodedData = NSKeyedArchiver.archivedData(withRootObject: Users)
         UserDefaults.standard.set(encodedData, forKey: storageKey)
+         */
         loaded = false
     }
     
@@ -62,23 +99,40 @@ class AppUsers{
         UserDefaults.standard.removeObject(forKey: storageKey)
     }
     
-    static func addUser(user: UserData) -> Bool{
-        if checkIfUserExists(uname: user.Username){
+    static func addUser(user: UserData, context: NSManagedObjectContext) -> Bool{
+        if checkIfUserExists(uname: user.Username, context: context){
             return false
         }
         
-        Users.append(user)
         
+        let entity = NSEntityDescription.entity(forEntityName: "User", in: context)
+        let newUser = DBUser(entity: entity!, insertInto: context)
+        newUser.username = user.Username
+        newUser.email = user.Email
+        newUser.password = user.Password
+        newUser.clubname = user.ClubName
+        newUser.clubleague = user.ClubLeague
         
+        do{
+            newUser.scoreboard = String(data: try NSKeyedArchiver.archivedData(withRootObject: user.ScoreB, requiringSecureCoding: false), encoding: .utf8)// as! String
+            try context.save()
+            Users.append(user)
+        }
+        catch{
+            print("Could not add user")
+            return false
+        }
+        
+        /*
         let encodedData = NSKeyedArchiver.archivedData(withRootObject: Users)
         UserDefaults.standard.set(encodedData, forKey: storageKey)
-        
+        */
         return true;
     }
     
-    static func checkIfUserExists(uname: String) -> Bool{
+    static func checkIfUserExists(uname: String, context: NSManagedObjectContext) -> Bool{
         if loaded == false {
-            loadData()
+            loadData(context: context)
         }
         if Users.count == 0 {
             return false;
@@ -92,9 +146,9 @@ class AppUsers{
         return false
     }
     
-    static func getUser(uname: String) -> UserData? {
+    static func getUser(uname: String, context: NSManagedObjectContext) -> UserData? {
         if loaded == false {
-            loadData()
+            loadData(context: context)
         }
         if Users.count == 0 {
             return nil;
@@ -108,9 +162,9 @@ class AppUsers{
         return nil
     }
     
-    static func validateUserCredentials(uname: String, password: String) -> UserData? {
+    static func validateUserCredentials(uname: String, password: String, context: NSManagedObjectContext) -> UserData? {
         if loaded == false {
-            loadData()
+            loadData(context: context)
         }
         if Users.count == 0 {
             return nil;
@@ -124,11 +178,32 @@ class AppUsers{
         return nil
     }
     
-    static func loadData(){
+    static func loadData(context: NSManagedObjectContext){
+        
+        //var dbUsers = [DBUser]()
+        
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        
+        do{
+            let results:NSArray = try context.fetch(request) as NSArray
+            for result in results
+            {
+                let user = result as! DBUser
+                self.Users.append(UserData.initFromDBUser(user: user))
+                //dbUsers.append(user)
+            }
+            self.loaded = true
+            
+        }
+        catch{
+            print("Fetch Failed");
+        }
+        /*
         if let data = UserDefaults.standard.data(forKey: storageKey),
             let appUsers = NSKeyedUnarchiver.unarchiveObject(with: data) as? [UserData]{
             self.Users = appUsers
             self.loaded = true
         }
+         */
     }
 }

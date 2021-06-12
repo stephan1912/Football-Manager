@@ -40,7 +40,8 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
         team.regenStamina()
         AppUsers.getCurrentUser().setTeam(team: team)
         AppUsers.setCurrentUser(user: AppUsers.getCurrentUser())
-        AppUsers.saveCurrentUserData()
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        AppUsers.saveCurrentUserData(context: context)
         playersTable.reloadData()
     }
     
@@ -64,7 +65,8 @@ class MyTeamViewController: UIViewController, UITableViewDelegate, UITableViewDa
             team.changePlayers(player1: selectedPlayer, player2: player2)
             AppUsers.getCurrentUser().setTeam(team: team)
             AppUsers.setCurrentUser(user: AppUsers.getCurrentUser())
-            AppUsers.saveCurrentUserData()
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            AppUsers.saveCurrentUserData(context: context)
             subStep = 0
             selectedLabel.text = ""
             initPlayers()

@@ -55,6 +55,17 @@ class UserData: NSObject, NSCoding{
         
     }
     
+    static func initFromDBUser(user: DBUser) -> UserData{
+        let result = UserData()
+        result.Username = user.username
+        result.Email = user.email
+        result.Password = user.password
+        result.ClubName = user.clubname
+        result.ClubLeague = user.clubleague
+        result.ScoreB = (NSKeyedUnarchiver.unarchiveObject(with: user.scoreboard.data(using: .utf8)!) as? ScoreBoard)!
+        return result
+    }
+    
     func getTeam() -> Team{
         return ScoreB.getTeamByName(name: ClubName)!
     }
