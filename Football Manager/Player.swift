@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Player: NSObject, NSCoding{
+class Player: NSObject, NSCoding, Codable{
     var name: String = "";
     var role: String = "";
     var stamina: Int = 0;
@@ -18,6 +18,13 @@ class Player: NSObject, NSCoding{
     var hasYellowInGame: Bool = false
     var teamRole: TeamRoles = TeamRoles.Reserved;
     
+    enum CodingKeys: String, CodingKey {
+        case name
+        case role
+        case rating
+        case stamina
+    }
+
     override init() {
     }
     required init?(coder aDecoder: NSCoder) {

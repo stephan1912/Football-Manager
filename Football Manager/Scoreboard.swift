@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class ScoreBoard: NSObject, NSCoding{
+public class Scoreboard: NSObject, NSCoding{
     var Season: String = ""
     var SeasonNumber: Int = 0
     var TeamS: [TeamStats] = []
@@ -89,7 +89,7 @@ class ScoreBoard: NSObject, NSCoding{
     
     override init(){}
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         self.Season = aDecoder.decodeObject(forKey: "season") as! String
         self.SeasonNumber = Int(aDecoder.decodeInt32(forKey: "seasonNumber"))
         self.CurrentRound = Int(aDecoder.decodeInt32(forKey: "currentRound"))
@@ -97,7 +97,7 @@ class ScoreBoard: NSObject, NSCoding{
         self.Rounds = aDecoder.decodeObject(forKey: "rounds") as! [Round]
     }
     
-    func encode(with aCoder: NSCoder) {
+    public func encode(with aCoder: NSCoder) {
         aCoder.encode(Season, forKey: "season")
         aCoder.encode(SeasonNumber, forKey: "seasonNumber")
         aCoder.encode(CurrentRound, forKey: "currentRound")

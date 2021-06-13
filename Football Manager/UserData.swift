@@ -13,7 +13,7 @@ class UserData: NSObject, NSCoding{
     var Password: String = ""
     var ClubLeague: String = ""
     var ClubName: String = ""
-    var ScoreB: ScoreBoard = ScoreBoard()
+    var ScoreB: Scoreboard = Scoreboard()
     
     
     override init(){
@@ -25,7 +25,7 @@ class UserData: NSObject, NSCoding{
         self.Password = decoder.decodeObject(forKey: "password") as! String
         self.ClubLeague = decoder.decodeObject(forKey: "clubLeague") as! String
         self.ClubName = decoder.decodeObject(forKey: "clubName") as! String
-        self.ScoreB = decoder.decodeObject(forKey: "scoreB") as! ScoreBoard
+        self.ScoreB = decoder.decodeObject(forKey: "scoreB") as! Scoreboard
     }
     
     func encode(with aCoder: NSCoder) {
@@ -46,7 +46,7 @@ class UserData: NSObject, NSCoding{
     
     func initFromJson(jsonString: String){
         let data = jsonString.data(using: .utf8)!
-        let json = try? JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+        let json = try? (JSONSerialization.jsonObject(with: data, options: []) as! [String: Any])
         Username = json?["UserName"] as! String
         Email = json?["Email"] as! String
         Password = json?["Password"] as! String
@@ -55,14 +55,21 @@ class UserData: NSObject, NSCoding{
         
     }
     
-    static func initFromDBUser(user: DBUser) -> UserData{
+    static func initFromDBUser(user: User) -> UserData{
         let result = UserData()
         result.Username = user.username
         result.Email = user.email
         result.Password = user.password
         result.ClubName = user.clubname
         result.ClubLeague = user.clubleague
-        result.ScoreB = (NSKeyedUnarchiver.unarchiveObject(with: user.scoreboard.data(using: .utf8)!) as? ScoreBoard)!
+        do{
+            result.ScoreB = user.scoreboard
+        }
+        catch{
+            print("Error decoding scoreboard!")
+            return result;
+        }
+        //result.ScoreB = (NSKeyedUnarchiver.unarchiveObject(with: user.scoreboard.data(using: .utf8)!) as? Scoreboard)!
         return result
     }
     

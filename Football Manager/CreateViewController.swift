@@ -7,7 +7,12 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import CodableFirebase
 class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerViewDataSource{
+    
+    var ref = Database.database().reference()
     
     @IBOutlet var errorLbl: UILabel!
     var leagueArray: [League] = []
@@ -28,7 +33,36 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
         ViewController.assignbackground(self.view);
         
         
-        leagueArray = loadJSON(fileURL: "gameData")
+        //leagueArray = loadJSON(fileURL: "gameData")
+        
+        
+        self.ref.child("Leagues").getData { (error, snapshot) in
+            do{
+            if let error = error {
+                print("Error getting data \(error)")
+            }
+            else if snapshot.exists() {
+                self.leagueArray = try FirebaseDecoder().decode([League].self, from: snapshot.value!)
+                for league in self.leagueArray{
+                    for team in league.Teams{
+                        team.generateStarting11()
+                    }
+                }
+                DispatchQueue.main.async {
+                    self.ligaField.reloadAllComponents();
+                    self.clubField.reloadAllComponents()
+                }
+                //print("Got data \(snapshot.value!)")
+            }
+            else {
+                print("No data available")
+            }
+            }
+            catch{
+                print("Error on conversion")
+            }
+        }
+        
         //Looks for single or multiple taps.
      let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
 
@@ -52,6 +86,30 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func isValidEmail(_ email: String) -> Bool {
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+
+        let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailPred.evaluate(with: email)
+    }
+    
+    func isInvalidPassword(_ password: String) -> Bool {
+        let passwordRegEx = "^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{6}$"
+
+        let passwordPred = NSPredicate(format:"SELF MATCHES %@", passwordRegEx)
+        return passwordPred.evaluate(with: password)
+    }
+    
+    func setErrorMessage(message: String){
+        errorLbl.text = message
+        errorLbl.isHidden = false
+        emailField.text = ""
+        passwordField.text = ""
+        usernameField.text = ""
+        
+    }
+    
     @IBOutlet var CreateAccount: UIButton!
     @IBAction func createAccountAction(_ sender: Any) {
         let uname = usernameField?.text
@@ -65,6 +123,18 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
             errorLbl.isHidden = false
             return
         }
+        
+        if isValidEmail(email!) == false{
+            setErrorMessage(message: "Adresa de email nu este valida!")
+            return
+            
+        }
+        
+        if isInvalidPassword(psd!) == true{
+            setErrorMessage(message: "Parola nu este valida!")
+            return
+        }
+        
         
         let user = UserData()
         user.ClubLeague = league
@@ -83,11 +153,7 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
             AppUsers.setCurrentUser(user: user)
         }
         else {
-            errorLbl.text = "Exista un profil cu acest username"
-            errorLbl.isHidden = false
-            emailField.text = ""
-            passwordField.text = ""
-            usernameField.text = ""
+            setErrorMessage(message: "Exista un profil cu acest username!")
             return
         }
     }
@@ -105,6 +171,7 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
             return leagueArray.count
         }else{
             //return pickerClubData.count
+            if leagueArray.count == 0 { return 0 }
             return leagueArray[(ligaField?.selectedRow(inComponent: 0))!].Teams.count
         }
     
@@ -132,14 +199,20 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
         navigationController?.setViewControllers([mainView], animated: false);
     }
     
+    func loadDataFromFirebase() -> [League]{
+        return [League]()
+    }
+    
     // Retrieves JSON from bundle
     func loadJSON(fileURL:String)-> [League] {
+        var leagues: [League] = []
+        /*
         let asset = NSDataAsset(name:fileURL, bundle: Bundle.main)
-        let json = try? JSONSerialization.jsonObject(with: asset!.data, options: []) as! [AnyObject]
+        let json = try? JSONSerialization.jsonObject(with: asset!.data, options: []) as? [AnyObject]
         
         var leagues: [League] = []
         
-        for js in json ?? []{
+        for js in json ?? [](){
             let league = League()
             
             league.name = (js["leagueName"] as? String)!;
@@ -164,7 +237,7 @@ class CreateViewController: UIViewController, UIPickerViewDelegate , UIPickerVie
             }
             leagues.append(league)
         }
-        
+        */
         return leagues
     }
 }

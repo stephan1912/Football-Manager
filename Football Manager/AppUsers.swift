@@ -36,14 +36,15 @@ class AppUsers{
                 UserDefaults.standard.set(encodedData, forKey: storageKey)
                 */
                 do{
-                    var fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+                    let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
                     fetchRequest.predicate = NSPredicate(format: "username = %@", CurrentUser.Username)
 
                     if let fetchResults = try context.fetch(fetchRequest) as? [NSManagedObject] {
                         if fetchResults.count != 0{
 
-                            var managedObject = fetchResults[0]
-                            managedObject.setValue(try NSKeyedArchiver.archivedData(withRootObject: CurrentUser.ScoreB, requiringSecureCoding: false) as! String, forKey: "scoreboard")
+                            let managedObject = fetchResults[0]
+                            //let scoreBoard = String(data: try NSKeyedArchiver.archivedData(withRootObject: CurrentUser.ScoreB, requiringSecureCoding: false), encoding: .utf8)
+                            managedObject.setValue(CurrentUser.ScoreB, forKey: "scoreboard")
 
                             try context.save()
                         }
@@ -69,12 +70,13 @@ class AppUsers{
         for i in 0...Users.count-1{
             if Users[i].Username == user.Username{
                 do{
-                    var fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
-                    fetchRequest.predicate = NSPredicate(format: "username = %@", CurrentUser.Username)
+                    let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+                    fetchRequest.predicate = NSPredicate(format: "username = %@", user.Username)
 
                     if let fetchResults = try context.fetch(fetchRequest) as? [NSManagedObject] {
                         if fetchResults.count != 0{
                             context.delete(fetchResults[0])
+                            try context.save()
                         }
                     }
                      Users.remove(at: i)
@@ -106,7 +108,7 @@ class AppUsers{
         
         
         let entity = NSEntityDescription.entity(forEntityName: "User", in: context)
-        let newUser = DBUser(entity: entity!, insertInto: context)
+        let newUser = User(entity: entity!, insertInto: context)
         newUser.username = user.Username
         newUser.email = user.Email
         newUser.password = user.Password
@@ -114,7 +116,9 @@ class AppUsers{
         newUser.clubleague = user.ClubLeague
         
         do{
-            newUser.scoreboard = String(data: try NSKeyedArchiver.archivedData(withRootObject: user.ScoreB, requiringSecureCoding: false), encoding: .utf8)// as! String
+            let data = try NSKeyedArchiver.archivedData(withRootObject: user.ScoreB, requiringSecureCoding: false)
+            //let scoreboard = String(data: data, encoding: .utf8)!// as! String
+            newUser.scoreboard = user.ScoreB //data//scoreboard
             try context.save()
             Users.append(user)
         }
@@ -131,16 +135,19 @@ class AppUsers{
     }
     
     static func checkIfUserExists(uname: String, context: NSManagedObjectContext) -> Bool{
-        if loaded == false {
-            loadData(context: context)
-        }
-        if Users.count == 0 {
-            return false;
-        }
-        for user in Users{
-            if user.Username == uname {
-                return true
+        do{
+            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+            fetchRequest.predicate = NSPredicate(format: "username = %@", uname)
+
+            if let fetchResults = try context.fetch(fetchRequest) as? [NSManagedObject] {
+                if fetchResults.count != 0{
+                    return true
+                }
             }
+        }
+        catch{
+            print("Error on check username")
+            return true
         }
         
         return false
@@ -181,6 +188,7 @@ class AppUsers{
     static func loadData(context: NSManagedObjectContext){
         
         //var dbUsers = [DBUser]()
+        Users = [UserData]()
         
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
         
@@ -188,7 +196,7 @@ class AppUsers{
             let results:NSArray = try context.fetch(request) as NSArray
             for result in results
             {
-                let user = result as! DBUser
+                let user = result as! User
                 self.Users.append(UserData.initFromDBUser(user: user))
                 //dbUsers.append(user)
             }

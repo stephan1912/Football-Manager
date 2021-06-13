@@ -9,12 +9,21 @@
 import Foundation
 
 
-class Team: NSObject, NSCoding {
+class Team: NSObject, NSCoding, Codable {
     var name: String = "";
     var league: String = "";
     var country: String = "";
     var manager: String = "";
     var players: [Player] = []
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case league
+        case country
+        case manager
+        case players
+    }
+
     override init() {
     }
     

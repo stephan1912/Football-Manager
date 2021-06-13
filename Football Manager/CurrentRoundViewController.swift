@@ -10,7 +10,7 @@ import UIKit
 
 class CurrentRoundViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var scoreBoard: ScoreBoard = ScoreBoard()
+    var scoreBoard: Scoreboard = Scoreboard()
     var etapaCurenta: Int = 0
     @IBOutlet var etapaLabel: UILabel!
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

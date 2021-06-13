@@ -10,7 +10,7 @@ import UIKit
 
 class ScoreBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var scoreBoard: ScoreBoard = ScoreBoard()
+    var scoreBoard: Scoreboard = Scoreboard()
     var teamS: [TeamStats] = []
     override var prefersStatusBarHidden: Bool{
         return true

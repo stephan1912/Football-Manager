@@ -7,7 +7,10 @@
 //
 
 import UIKit
-
+import WebKit
+import Firebase
+import CodableFirebase
+import FirebaseDatabase
 class ProfileViewController: UIViewController {
 
     
@@ -16,9 +19,70 @@ class ProfileViewController: UIViewController {
     @IBOutlet var clubLabel: UILabel!
     @IBOutlet var leagueLabel: UILabel!
     @IBOutlet var usernameLabel: UILabel!
+    @IBOutlet var webView: WKWebView!
+    @IBOutlet weak var newsLabel: UILabel!
+    
+    var ref = Database.database().reference()
+    var newsList: [News] = []
+    var currentNews = 0
+    
+    @IBAction func WebViewPrevEvent(_ sender: UIButton) {
+        if newsList.count <= 0 {
+            return
+        }
+        currentNews = currentNews - 1
+        if currentNews <= 0{
+            currentNews = newsList.count - 1
+        }
+        newsLabel.text = newsList[currentNews].title
+        webView.load(URLRequest(url: URL(string: newsList[currentNews].link)!))
+    }
+    @IBAction func WebViewNextEvent(_ sender: UIButton) {
+        if newsList.count <= 0 {
+            return
+        }
+        currentNews = currentNews + 1
+        if currentNews >= newsList.count{
+            currentNews = 0
+        }
+        newsLabel.text = newsList[currentNews].title
+        webView.load(URLRequest(url: URL(string: newsList[currentNews].link)!))
+    }
+    
+    func getNewsData(){
+        self.ref.child("News").getData { (error, snapshot) in
+            do{
+            if let error = error {
+                print("Error getting news \(error)")
+            }
+            else if snapshot.exists() {
+                self.newsList = try FirebaseDecoder().decode([News].self, from: snapshot.value!)
+                if(self.newsList.count == 0) {
+                    return
+                }
+                DispatchQueue.main.async {
+                    self.newsLabel.text = self.newsList[0].title
+                    self.webView.load(URLRequest(url: URL(string: self.newsList[0].link)!))
+                    
+                }
+                //print("Got data \(snapshot.value!)")
+            }
+            else {
+                print("No news available")
+            }
+            }
+            catch{
+                print("Error on news")
+            }
+        }
+        
+    }
+    
     var userData:UserData = UserData();
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        getNewsData()
         
         userData = AppUsers.getCurrentUser()
         
